@@ -7,14 +7,15 @@
     :root
     {
         --font_size: 18px;
-        --font_size_title: 40px;
+        --font_size_title: 36px;
     }
 
 
     .wrap
     {
         zoom: 1;
-        -moz-transform:  scale(1);
+
+        -moz-transform: scale(1);
         -moz-transform-origin: center top;
     }
 
@@ -1220,6 +1221,355 @@
     .error_info .link
     {
         font-size: 20px;
+    }
+
+
+
+    /*---------------
+        Esperavir
+    ---------------*/
+    .esperavir .head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .esperavir .head .data
+    {
+        padding: 60px;
+
+        text-align: center;
+
+        border-radius: 48px;
+    }
+
+
+    .esperavir .head .info
+    {
+        width: 100%;
+    }
+
+
+    .esperavir .head .title
+    {
+        font-size: 26px;
+    }
+
+
+    .esperavir .head .link
+    {
+        margin-top: 32px;
+    }
+
+    .esperavir .head .link a
+    {
+        width: 232px;
+        padding: 18px;
+    }
+
+
+    .esperavir .head img
+    {
+        margin: 40px auto 0;
+    }
+
+
+
+    .esperavir .pluses
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .esperavir .pluses .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .esperavir .pluses .item
+    {
+        font-size: 17px;
+
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 40px;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .esperavir .pluses .icon
+    {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .esperavir .pluses .icon + *
+    {
+        width: calc(100% - 88px);
+
+        align-self: center;
+    }
+
+
+    .esperavir .pluses br
+    {
+        display: none;
+    }
+
+
+
+    .esperavir .mechanism .notice
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .esperavir .mechanism .notice .icon
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+    .esperavir .mechanism .notice .icon + *
+    {
+        width: calc(100% - 56px);
+    }
+
+    .esperavir .mechanism .notice .title
+    {
+        font-size: 17px;
+    }
+
+    .esperavir .mechanism .notice .desc
+    {
+        font-size: 13px;
+        line-height: 130%;
+
+        margin-top: 32px;
+    }
+
+
+
+    .esperavir .mechanism .image
+    {
+        margin-right: 40px;
+        margin-left: 0;
+    }
+
+
+    .esperavir .mechanism .image img
+    {
+        width: 172px;
+    }
+
+
+    .esperavir .mechanism .data
+    {
+        width: calc(100% - 220px);
+    }
+
+
+    .esperavir .mechanism .data .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .esperavir .mechanism .item
+    {
+        font-size: 17px;
+        line-height: 130%;
+
+        padding: 20px 24px;
+
+        border-radius: 10px;
+    }
+
+
+    .esperavir .mechanism .item + .item
+    {
+        margin-top: 32px;
+    }
+
+    .esperavir .mechanism .item + .item:before
+    {
+        top: -40px;
+        left: 88px;
+
+        width: 18px;
+        height: 48px;
+    }
+
+
+
+    .esperavir .indications
+    {
+        margin-bottom: 80px;
+        padding: 72px 0 80px;
+    }
+
+
+    .esperavir .indications .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .esperavir .indications .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .esperavir .indications .items
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+    .esperavir .indications .item + .item
+    {
+        margin-top: 24px;
+    }
+
+
+    .esperavir .indications .item .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .esperavir .indications .item .icon svg
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+    .esperavir .indications .item .icon + *
+    {
+        width: calc(100% - 88px);
+    }
+
+
+    .esperavir .indications .notice
+    {
+        font-size: 18px;
+
+        width: 100%;
+        margin-top: 40px;
+        padding: 40px;
+
+        border-radius: 10px;
+    }
+
+    .esperavir .indications .notice .icon
+    {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 24px;
+    }
+
+
+
+    .esperavir .mode_app .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .esperavir .mode_app .block_head .link a
+    {
+        padding: 10px 30px;
+    }
+
+
+    .esperavir .mode_app .items
+    {
+        font-size: 18px;
+        line-height: 130%;
+
+        width: 100%;
+    }
+
+
+    .esperavir .mode_app .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .esperavir .mode_app .items .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .esperavir .mode_app .items .icon + *
+    {
+        width: calc(100% - 88px);
+    }
+
+
+    .esperavir .mode_app .img
+    {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+
+    .esperavir .mode_app .exp
+    {
+        font-size: 24px;
+
+        margin-top: 48px;
+    }
+
+
+
+    /*-----------
+        Notes
+    -----------*/
+    .notes .spoler_btn
+    {
+        font-size: 24px;
+
+        padding: 40px 0;
+    }
+
+
+    .notes .spoler_btn .icon
+    {
+        width: 28px;
+        height: 14px;
+    }
+
+
+    .notes .data
+    {
+        font-size: 17px;
+
+        padding: 48px 0;
+    }
+
+
+    .notes .text
+    {
+        padding: 0;
+    }
+
+    .notes .text > * + *
+    {
+        margin-top: 24px;
     }
 
 

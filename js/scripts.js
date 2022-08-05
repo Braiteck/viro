@@ -96,7 +96,15 @@ $(() => {
 		$(this).addClass('active')
 
 		calendar.setViewDate(date)
+	})
 
+
+	// Примечание
+	$('.notes .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.notes .data').slideToggle(300)
 	})
 
 
