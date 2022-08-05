@@ -1,0 +1,1020 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .wrap
+    {
+        zoom: .63;
+    }
+
+    @-moz-document url-prefix() {
+     html {
+        transform: scale(0.63);
+        transform-origin: left top;
+        height: calc(100% / 0.63);
+        width: calc(100% / 0.63);
+        }
+      }
+    }
+
+
+    /* :root
+    {
+        --font_size: 17px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    } */
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    /* .load_more
+    {
+        margin-top: 52px;
+    }
+
+
+    .load_more .btn
+    {
+        padding: 20px 72px;
+
+        border-radius: 48px;
+    } */
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    /* .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -20px;
+        right: -20px;
+
+        width: 56px;
+        height: 56px;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close svg,
+    .modal + .carousel__button.is-close svg
+    {
+        width: 20px;
+        height: 20px;
+    } */
+
+
+
+    /*----------------
+        Datepicker
+    ----------------*/
+    /* .air-datepicker
+    {
+        --adp-day-cell-height: 50px;
+        --adp-month-cell-height: 50px;
+    } */
+
+
+
+    /*------------
+        Header
+    ------------*/
+    /* header
+    {
+        padding: 24px 0 40px;
+    }
+
+    header.border
+    {
+        padding-bottom: 39px;
+    }
+
+
+    header .cont + .cont
+    {
+        margin-top: 24px;
+    }
+
+
+    header .logo .name
+    {
+        font-size: 48px;
+    }
+
+    header .logo .desc
+    {
+        margin-top: 2px;
+    }
+
+
+    header .sep
+    {
+        margin-right: 28px;
+        margin-left: 28px;
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    header .menu_item > a .arr
+    {
+        width: 18px;
+        height: 9px;
+        margin-left: 8px;
+    } */
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    /* .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .page_head.border
+    {
+        margin-bottom: 40px;
+        padding-bottom: 39px;
+    }
+
+
+    .page_title
+    {
+        font-size: 44px;
+    }
+
+
+    .page_head .links a
+    {
+        padding: 8px 20px;
+    } */
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    /* .block_head.pad_r
+    {
+        margin-bottom: 40px;
+        padding-right: 180px;
+    } */
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    /* .form
+    {
+        --form_border_radius: 48px;
+    }
+
+
+    .form .columns
+    {
+        --form_columns_offset: 40px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .form .label
+    {
+        font-size: 18px;
+
+        padding: 0 30px;
+    }
+
+
+    .form .input
+    {
+        font-size: 20px;
+
+        height: 64px;
+        padding-right: 30px;
+        padding-left: 30px;
+
+        border-width: 2px;
+    }
+
+
+    .form .nice-select .current
+    {
+        font-size: 20px;
+        line-height: 60px;
+
+        height: 64px;
+        padding-right: 82px;
+        padding-left: 30px;
+
+        border-width: 2px;
+    }
+
+    .form .nice-select .list .list_item
+    {
+        font-size: 20px;
+    }
+
+    .form .nice-select + .arr
+    {
+        right: 32px;
+
+        width: 26px;
+        height: 14px;
+    }
+
+
+    .form .agree label
+    {
+        font-size: 20px;
+
+        padding-left: 48px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 280px;
+        height: 64px;
+
+        border-radius: 48px;
+    }
+
+
+    .form .bottom
+    {
+        margin-top: 24px;
+        padding-top: 38px;
+
+        border-width: 2px;
+    }
+
+    .form .bottom .agree
+    {
+        width: calc(100% - 320px);
+    } */
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    /* .text_block .big
+    {
+        font-size: 20px;
+    } */
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    /* .first_section
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .first_section .status
+    {
+        font-size: 40px;
+    }
+
+    .first_section .status .point
+    {
+        width: 12px;
+        height: 12px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 22px;
+
+        margin-top: 8px;
+    }
+
+
+
+    .first_section .stats .item .val
+    {
+        font-size: 32px;
+    }
+
+
+    .first_section .stats .item .exp
+    {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+
+    .first_section .stats .item .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .first_section .stats .item .icon + *
+    {
+        margin-left: 12px;
+    }
+
+    .first_section .stats .item .icon img
+    {
+        zoom: .8;
+    } */
+
+
+
+    /*-----------------
+        Site search
+    -----------------*/
+    /* .site_search form .icon
+    {
+        width: 33px;
+        height: 33px;
+    }
+
+
+    .site_search form .input
+    {
+        font-size: 26px;
+
+        padding-left: 60px;
+    } */
+
+
+
+    /*--------------
+        Medicine
+    --------------*/
+    /* .medicine
+    {
+        margin-bottom: 92px;
+    }
+
+
+    .medicine .images > *
+    {
+        height: 280px;
+        padding: 24px;
+
+        border-radius: 48px;
+    }
+
+    .medicine .images > * + *
+    {
+        padding: 0;
+    }
+
+
+    .medicine .row
+    {
+        margin-top: 28px;
+        margin-left: -32px;
+    }
+
+
+    .medicine .item
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        width: calc(33.333% - 32px);
+        margin-left: 32px;
+    }
+
+    .medicine .item .title
+    {
+        font-size: 26px;
+    }
+
+
+    .medicine .all_link
+    {
+        width: calc(100% - 32px);
+        margin-left: 32px;
+
+        border-radius: 48px;
+    } */
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    /* .error_info
+    {
+        padding: 120px 0 280px;
+    }
+
+
+    .error_info .code
+    {
+        font-size: 200px;
+    }
+
+
+    .error_info .desc,
+    .error_info .link
+    {
+        font-size: 20px;
+    } */
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    /* .articles
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .articles .categories a
+    {
+        border-radius: 48px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+    .articles .row > *.big
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .articles .article .thumb
+    {
+        border-radius: 48px;
+    }
+
+
+    .articles .article .sticker
+    {
+        border-radius: 0 48px;
+    }
+
+    .articles .article.big .sticker
+    {
+        width: 140px;
+        height: 92px;
+    }
+
+
+    .articles .article .date
+    {
+        border-radius: 0 48px 0 48px;
+    }
+
+
+    .articles .article.big .name
+    {
+        font-size: 21px;
+    }
+
+    .articles .article .thumb .name
+    {
+        font-size: 34px;
+
+        padding: 40px;
+    }
+
+
+
+    .articles .poll
+    {
+        padding: 32px;
+
+        border-radius: 48px;
+    }
+
+
+    .articles .poll .question
+    {
+        font-size: 25px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .articles .poll .answers
+    {
+        margin-bottom: -8px;
+    }
+
+    .articles .poll .answers > *
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .articles .poll .answers label
+    {
+        min-height: 28px;
+        padding-left: 44px;
+    }
+
+    .articles .poll .answers label .check
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+    .articles .poll .answers label .check svg
+    {
+        width: 18px;
+        height: 13px;
+    }
+
+
+    .articles .poll .submit_btn
+    {
+        padding: 14px 44px;
+    }
+
+
+
+    .articles .all_link
+    {
+        width: calc(100% - 24px);
+    }
+
+    .articles .all_link div
+    {
+        padding-bottom: 56px;
+
+        border-radius: 48px;
+    } */
+
+
+
+    /*-----------
+        Polls
+    -----------*/
+    /* .polls .item
+    {
+        padding: 32px;
+
+        border-radius: 48px;
+    }
+
+
+    .polls .item .pre_title
+    {
+        line-height: 22px;
+
+        letter-spacing: .145em;
+    }
+
+    .polls .item .block_title
+    {
+        font-size: 36px;
+    }
+
+
+
+    .polls .ver_bar .value span
+    {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+
+    .polls .hor_bar
+    {
+        margin-top: 32px;
+    }
+
+    .polls .hor_bar .progress
+    {
+        width: calc(100% - 200px);
+    }
+
+    .polls .hor_bar .bar .value
+    {
+        width: 40px;
+    }
+
+    .polls .hor_bar .bar .label
+    {
+        width: 120px;
+    }
+
+
+    .polls .image
+    {
+        margin-top: 32px;
+    } */
+
+
+
+    /*-------------
+        Therapy
+    -------------*/
+    /* .therapy .list > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+    .therapy .item
+    {
+        padding: 40px;
+
+        border-radius: 48px;
+    }
+
+
+    .therapy .item .thumb
+    {
+        width: 440px;
+    }
+
+    .therapy .item .thumb + *
+    {
+        width: calc(100% - 500px);
+    }
+
+
+    .therapy .item .name
+    {
+        font-size: 36px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .therapy .item .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .therapy .item .link
+    {
+        margin-top: 28px;
+    }
+
+    .therapy .item .link a
+    {
+        width: 232px;
+        padding: 18px 22px;
+
+        border-radius: 48px;
+    } */
+
+
+
+    /*-----------------
+        Search info
+    -----------------*/
+    /* .search_info form
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .search_info form .icon
+    {
+        bottom: 32px;
+
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .search_info form .input
+    {
+        font-size: 32px;
+
+        height: 76px;
+        padding-bottom: 32px;
+        padding-left: 72px;
+    }
+
+
+
+    .search_info .list > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .search_info .list .item
+    {
+        padding-bottom: 40px;
+    }
+
+    .search_info .list .item .name
+    {
+        font-size: 22px;
+    }
+
+    .search_info .list .item .desc
+    {
+        margin-top: 16px;
+    } */
+
+
+
+    /*----------
+        Tags
+    ----------*/
+    /* .tags
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .tags a
+    {
+        border-radius: 48px;
+    } */
+
+
+
+    /*------------
+        Events
+    ------------*/
+    /* .events.border
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .events .calendar
+    {
+        width: 480px;
+    }
+
+
+    .events .calendar .months > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .events .top_event
+    {
+        width: calc(100% - 560px);
+    }
+
+
+    .events .top_event .thumb
+    {
+        width: 340px;
+        height: 340px;
+        margin-bottom: 24px;
+
+        border-radius: 48px;
+    }
+
+    .events .top_event .thumb + *
+    {
+        width: 100%;
+    }
+
+
+    .events .top_event .date
+    {
+        margin-bottom: 8px;
+    }
+
+    .events .top_event .time
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .events .top_event .name
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .events .top_event .speackers
+    {
+        margin-top: 24px;
+    }
+
+
+    .events .top_event .btn
+    {
+        width: 200px;
+        margin-top: 24px;
+        padding: 16px;
+
+        border-radius: 48px;
+    } */
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    /* .article_info,
+    .article_info.big_m
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .article_info .image
+    {
+        height: 300px;
+        margin-bottom: 40px;
+
+        border-radius: 48px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 44px;
+    }
+
+
+    .article_info .date_time
+    {
+        margin-top: 28px;
+    }
+
+
+    .article_info .time
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .article_info .date
+    {
+        margin-top: 28px;
+    }
+
+    .article_info .date_time .date
+    {
+        margin-left: 32px;
+    }
+
+
+    .article_info .lecturer
+    {
+        margin-top: 40px;
+    }
+
+    .article_info .lecturer .title
+    {
+        font-size: 24px;
+    }
+
+
+    .article_info .person .thumb
+    {
+        width: 116px;
+        height: 116px;
+    }
+
+    .article_info .person .thumb + *
+    {
+        width: calc(100% - 148px);
+    }
+
+
+    .article_info .person .name
+    {
+        font-size: 19px;
+    }
+
+
+
+    .article_info .text_block
+    {
+        margin-top: 44px;
+    }
+
+    .article_info .lecturer + .text_block
+    {
+        margin-top: 40px;
+    }
+
+
+    .article_info .participate_btn
+    {
+        margin-top: 40px;
+        padding: 22px 50px;
+
+        border-radius: 60px;
+    }
+
+
+    .article_info .lock .btn
+    {
+        margin-top: 32px;
+        padding: 19px 43px;
+    } */
+
+
+
+    /*--------------------
+        Event register
+    --------------------*/
+    /* .event_register
+    {
+        padding: 40px;
+
+        border-radius: 48px;
+    }
+
+    .event_register .title
+    {
+        font-size: 36px;
+
+        margin-bottom: 40px;
+    } */
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    /* footer
+    {
+        padding: 72px 0;
+    }
+
+
+    footer .logo .name
+    {
+        font-size: 36px;
+    }
+
+    footer .logo .name:after
+    {
+        top: -5px;
+        right: -10px;
+
+        width: 10px;
+        height: 10px;
+    } */
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    /* .video_modal
+    {
+        padding: 48px;
+    }
+
+    .video_modal .thumb
+    {
+        margin-bottom: 32px;
+    }
+
+    .video_modal .title
+    {
+        font-size: 26px;
+    } */
+}

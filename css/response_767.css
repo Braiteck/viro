@@ -1,0 +1,896 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: -88px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: -24px;
+        right: -16px;
+
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .modal.fancybox__content > .carousel__button.is-close svg,
+    .modal + .carousel__button.is-close svg
+    {
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    /*----------------
+        Datepicker
+    ----------------*/
+    .air-datepicker
+    {
+        --adp-day-cell-height: 46px;
+        --adp-month-cell-height: 46px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+    header.border
+    {
+        padding-bottom: 19px;
+    }
+
+
+    header .logo .name
+    {
+        font-size: 34px;
+    }
+
+    header .logo .name:after
+    {
+        top: -3px;
+        right: -14px;
+
+        width: 12px;
+        height: 12px;
+    }
+
+
+    header .sep
+    {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head.border
+    {
+        margin-bottom: 40px;
+        padding-bottom: 31px;
+    }
+
+
+    .page_title
+    {
+        font-size: 36px;
+
+        width: 100%;
+    }
+
+
+    .page_head .links
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-bottom: 0;
+        margin-left: -20px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .page_head .links::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .page_head .links::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .page_head .links > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .page_head .links > * + *
+    {
+        margin-left: 5px;
+    }
+
+    .page_head .links a
+    {
+        font-size: 16px;
+
+        padding: 6px 17px 8px;
+    }
+
+
+
+    .page_head .year
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+    .block_head.pad_r
+    {
+        margin-bottom: 56px;
+        padding-right: 0;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .form .submit,
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    .form .bottom
+    {
+        margin-top: 0;
+        padding-top: 0;
+
+        border: none;
+    }
+
+    .form .bottom .agree
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .text_block .big
+    {
+        font-size: 19px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .status
+    {
+        font-size: 31px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 19px;
+    }
+
+
+    .first_section .stats .item .icon
+    {
+        margin-bottom: 8px;
+    }
+
+    .first_section .stats .item .icon + *
+    {
+        width: 100%;
+    }
+
+
+    .first_section .stats .item .val
+    {
+        font-size: 35px;
+    }
+
+
+
+    /*-----------------
+        Site search
+    -----------------*/
+    .site_search form .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .site_search form .input
+    {
+        height: 68px;
+        padding-left: 44px;
+    }
+
+
+
+    /*--------------
+        Medicine
+    --------------*/
+    .medicine
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .medicine .images
+    {
+        margin-left: 0;
+    }
+
+    .medicine .images > *
+    {
+        width: 100%;
+        height: 260px;
+        margin-left: 0;
+
+        justify-content: center;
+    }
+
+    .medicine .images > * + *
+    {
+        padding: 0;
+
+        justify-content: center;
+    }
+
+
+    .medicine .row
+    {
+        margin-top: 28px;
+        margin-left: 0;
+    }
+
+
+    .medicine .item
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .medicine .item + .item
+    {
+        margin-top: 28px;
+    }
+
+    .medicine .item .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .medicine .all_link
+    {
+        width: 100%;
+        margin-left: 0;
+
+        border-radius: 40px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding: 80px 0 200px;
+    }
+
+
+    .error_info .code
+    {
+        font-size: 172px;
+    }
+
+
+    .error_info .desc,
+    .error_info .link
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .block_head .title
+    {
+        width: calc(100% - 100px);
+    }
+
+
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+    .articles .row > *,
+    .articles .row > *.big
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .articles .article .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .articles .article.big .sticker
+    {
+        width: 124px;
+        height: 80px;
+    }
+
+
+    .articles .article.big .name
+    {
+        font-size: 18px;
+    }
+
+    .articles .article .thumb .name
+    {
+        font-size: 28px;
+
+        width: 100%;
+        padding: 32px;
+    }
+
+
+
+    .articles .poll
+    {
+        padding: 32px;
+    }
+
+
+    .articles .poll .pre_title
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .articles .poll .question
+    {
+        font-size: 24px;
+    }
+
+
+    .articles .poll .answers > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .articles .poll .submit_btn
+    {
+        padding: 12px 40px;
+    }
+
+
+    .articles .all_link div
+    {
+        padding-bottom: 52px;
+    }
+
+
+
+    /*-----------
+        Polls
+    -----------*/
+    .polls.margin
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .polls .row
+    {
+        margin-left: 0;
+    }
+
+    .polls .row > *,
+    .polls .row > *.big_w
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .polls .item
+    {
+        padding: 28px 24px;
+    }
+
+
+    .polls .item .block_title
+    {
+        font-size: 30px;
+    }
+
+
+    .polls .ver_bar
+    {
+        margin-top: 24px;
+        margin-left: -12px;
+    }
+
+    .polls .ver_bar > *
+    {
+        width: calc(33.333% - 12px);
+        margin-left: 12px;
+    }
+
+
+    .polls .ver_bar .value span
+    {
+        font-size: 36px;
+        line-height: 40px;
+
+        left: 12px;
+    }
+
+
+    .polls .hor_bar
+    {
+        margin-top: 32px;
+    }
+
+    .polls .hor_bar .progress
+    {
+        width: calc(100% - 200px);
+    }
+
+    .polls .hor_bar .bar .value
+    {
+        width: 40px;
+    }
+
+    .polls .hor_bar .bar .label
+    {
+        width: 120px;
+    }
+
+
+    .polls .image
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*-------------
+        Therapy
+    -------------*/
+    .therapy .item
+    {
+        padding: 24px;
+    }
+
+
+    .therapy .item .thumb
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .therapy .item .name
+    {
+        font-size: 28px;
+    }
+
+
+    .therapy .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .therapy .item .link a
+    {
+        width: 200px;
+        padding: 14px 18px;
+    }
+
+
+
+    /*-----------------
+        Search info
+    -----------------*/
+    .search_info form .icon
+    {
+        bottom: 24px;
+
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .search_info form .input
+    {
+        font-size: 22px;
+
+        height: 56px;
+        padding-bottom: 24px;
+        padding-left: 48px;
+    }
+
+
+
+    .search_info .list > * + *
+    {
+        margin-top: 32px;
+    }
+
+
+    .search_info .list .item
+    {
+        padding-bottom: 32px;
+    }
+
+    .search_info .list .item .name
+    {
+        font-size: 20px;
+    }
+
+    .search_info .list .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------
+        Tags
+    ----------*/
+    .tags a
+    {
+        font-size: 16px;
+
+        padding: 8px 16px 10px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events.border
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .events .calendar
+    {
+        width: 100%;
+    }
+
+
+    .events .calendar .months > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .events .top_event
+    {
+        width: 100%;
+    }
+
+
+    .events .top_event .thumb
+    {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+
+        border-radius: 40px;
+    }
+
+    .events .top_event .thumb + *
+    {
+        width: 100%;
+    }
+
+
+    .events .top_event .date
+    {
+        font-size: 16px;
+
+        margin-bottom: 8px;
+    }
+
+    .events .top_event .time
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .events .top_event .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .events .top_event .speackers
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    .events .top_event .btn
+    {
+        padding: 12px 16px;
+
+        border-radius: 40px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info,
+    .article_info.big_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .article_info .image
+    {
+        height: 240px;
+        margin-bottom: 32px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 36px;
+    }
+
+
+    .article_info .time
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .article_info .date
+    {
+        padding: 4px 12px 5px;
+    }
+
+    .article_info .date_time .date
+    {
+        margin-left: 24px;
+    }
+
+
+    .article_info .lecturer .title
+    {
+        font-size: 20px;
+    }
+
+
+    .article_info .person .thumb
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .article_info .person .thumb + *
+    {
+        width: calc(100% - 100px);
+    }
+
+
+    .article_info .person .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .article_info .text_block,
+    .article_info .participate_btn
+    {
+        margin-top: 32px;
+    }
+
+
+    .article_info .lock .btn
+    {
+        margin-top: 24px;
+        padding: 15px 39px;
+    }
+
+
+
+    /*--------------------
+        Event register
+    --------------------*/
+    .event_register
+    {
+        margin-top: 60px;
+        padding: 40px 24px;
+    }
+
+
+    .event_register .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 28px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+
+
+    footer .logo .name
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        border-radius: 32px;
+    }
+
+
+    .video_modal
+    {
+        padding: 24px;
+    }
+
+
+    .video_modal .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+    .video_modal .thumb .icon
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .video_modal .thumb .icon svg
+    {
+        width: 32px;
+        height: 36px;
+    }
+
+
+    .video_modal .title
+    {
+        font-size: 22px;
+    }
+
+    .video_modal .desc
+    {
+        font-size: 16px;
+    }
+}

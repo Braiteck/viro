@@ -1,0 +1,643 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 32px;
+    }
+
+
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: -72px;
+
+        width: 48px;
+        height: 48px;
+    }
+
+    .swiper-button-prev
+    {
+        right: 64px;
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more
+    {
+        margin-top: 40px;
+    }
+
+
+    .load_more .btn
+    {
+        padding: 14px 58px;
+
+        border-radius: 40px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*----------------
+        Datepicker
+    ----------------*/
+    .air-datepicker
+    {
+        --adp-day-cell-height: 40px;
+        --adp-month-cell-height: 40px;
+    }
+
+
+    .air-datepicker-body--day-names
+    {
+        margin-bottom: 12px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 16px 0;
+    }
+
+    header.border
+    {
+        margin-bottom: 32px;
+    }
+
+
+    header .logo .name
+    {
+        font-size: 26px;
+    }
+
+    header .logo .name:after
+    {
+        top: -2px;
+        right: -10px;
+
+        width: 10px;
+        height: 10px;
+    }
+
+
+    header .search .btn
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+    header .search .btn .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    header .sep
+    {
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 32px;
+    }
+
+    .page_title.full_w
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .agree label
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .big
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .status
+    {
+        font-size: 28px;
+    }
+
+    .first_section .status .point
+    {
+        width: 10px;
+        height: 10px;
+        margin-left: 4px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .stats
+    {
+        margin-top: 32px;
+    }
+
+    .first_section .stats .row
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+    .first_section .stats .row > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .first_section .stats .item .icon
+    {
+        margin-bottom: 0;
+    }
+
+    .first_section .stats .item .icon + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+
+    /*-----------------
+        Site search
+    -----------------*/
+    .site_search form .input
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Medicine
+    --------------*/
+    .medicine
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .medicine .images
+    {
+        margin-left: 0;
+    }
+
+    .medicine .images > *
+    {
+        width: 100%;
+        height: 260px;
+        margin-left: 0;
+
+        justify-content: center;
+    }
+
+    .medicine .images > * + *
+    {
+        padding: 0;
+
+        justify-content: center;
+    }
+
+
+    .medicine .row
+    {
+        margin-top: 28px;
+        margin-left: 0;
+    }
+
+
+    .medicine .item
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .medicine .item + .item
+    {
+        margin-top: 28px;
+    }
+
+    .medicine .item .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .medicine .all_link
+    {
+        width: 100%;
+        margin-left: 0;
+
+        border-radius: 40px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .categories a
+    {
+        font-size: 15px;
+
+        padding: 7px 14px 9px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .articles .row > *
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .articles .article .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .articles .article.big .name
+    {
+        font-size: 16px;
+    }
+
+    .articles .article .thumb .name
+    {
+        font-size: 24px;
+
+        width: 100%;
+        padding: 28px 24px;
+    }
+
+
+
+    .articles .poll
+    {
+        padding: 28px 24px;
+    }
+
+
+    .articles .poll .answers
+    {
+        margin-left: 0;
+    }
+
+    .articles .poll .answers > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .articles .poll .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .code
+    {
+        font-size: 152px;
+    }
+
+
+    .error_info .desc
+    {
+        line-height: 140%;
+    }
+
+
+    .error_info .link
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-----------
+        Polls
+    -----------*/
+    .polls .item
+    {
+        padding: 28px 20px;
+    }
+
+
+    .polls .item .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .polls .ver_bar
+    {
+        margin-left: -8px;
+    }
+
+    .polls .ver_bar > *
+    {
+        width: calc(33.333% - 8px);
+        margin-left: 8px;
+    }
+
+
+    .polls .ver_bar .value span
+    {
+        font-size: 32px;
+        line-height: 36px;
+
+        left: 8px;
+    }
+
+
+    .polls .hor_bar
+    {
+        margin-top: 28px;
+    }
+
+    .polls .hor_bar .bar + .bar
+    {
+        margin-top: 16px;
+    }
+
+
+    .polls .hor_bar .progress
+    {
+        width: calc(100% - 68px);
+
+        order: 2;
+    }
+
+
+    .polls .hor_bar .bar .value
+    {
+        width: 48px;
+
+        order: 3;
+    }
+
+
+    .polls .hor_bar .bar .label
+    {
+        width: 100%;
+        margin-bottom: 4px;
+        margin-left: 0;
+
+        order: 1;
+    }
+
+
+    .polls .image
+    {
+        margin-top: 28px;
+    }
+
+
+    .polls .link,
+    .polls .exp
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*-----------------
+        Search info
+    -----------------*/
+    .search_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    .search_info form .icon
+    {
+        bottom: 20px;
+    }
+
+
+    .search_info form .input
+    {
+        font-size: 20px;
+
+        height: 48px;
+        padding-bottom: 20px;
+        padding-left: 44px;
+    }
+
+
+
+    .search_info .list > * + *
+    {
+        margin-top: 28px;
+    }
+
+
+    .search_info .list .item
+    {
+        padding-bottom: 28px;
+    }
+
+
+
+    /*----------
+        Tags
+    ----------*/
+    .tags a
+    {
+        font-size: 15px;
+
+        padding: 7px 14px 9px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .calendar #calendar
+    {
+        width: calc(100% - 100px);
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .image
+    {
+        height: 200px;
+        margin-bottom: 24px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 28px;
+    }
+
+
+    .article_info .time
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+    .article_info .person .desc
+    {
+        font-size: 15px;
+    }
+
+
+    .article_info .participate_btn
+    {
+        margin-top: 28px;
+        padding: 14px 30px;
+
+        border-radius: 40px;
+    }
+
+
+    .article_info .lock br
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Event register
+    --------------------*/
+    .event_register .title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 52px 0;
+    }
+
+
+    footer .logo .name
+    {
+        font-size: 30px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        border-radius: 24px;
+    }
+
+
+
+    .video_modal .thumb .icon
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .video_modal .thumb .icon svg
+    {
+        width: 28px;
+        height: 32px;
+    }
+}
