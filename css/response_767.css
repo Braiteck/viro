@@ -123,6 +123,14 @@
     }
 
 
+    .page_desc
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+
     .page_head .links
     {
         display: block;
@@ -1080,6 +1088,324 @@
         font-size: 16px;
 
         padding: 40px 0;
+    }
+
+
+
+    /*-----------------
+        Favipiravir
+    -----------------*/
+    .favipiravir .mechanisn
+    {
+        padding: 52px 0;
+    }
+
+
+    .favipiravir .mechanisn .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .favipiravir .mechanisn .item
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .favipiravir .mechanisn .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .favipiravir .mechanisn .item .number
+    {
+        font-size: 34px;
+        line-height: 52px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .favipiravir .mechanisn .item .number + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+    .favipiravir .mechanisn .item br
+    {
+        display: none;
+    }
+
+
+
+    .favipiravir .about
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .favipiravir .about .data
+    {
+        font-size: 18px;
+    }
+
+    .favipiravir .about .data > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+
+    .favipiravir .efficiency
+    {
+        margin-bottom: 60px;
+        padding: 52px 0;
+    }
+
+
+    .favipiravir .efficiency .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 32px;
+        padding-right: 0;
+    }
+
+
+    .favipiravir .efficiency .items
+    {
+        font-size: 16px;
+    }
+
+
+    .favipiravir .efficiency .col
+    {
+        width: 100%;
+    }
+
+    .favipiravir .efficiency .col + .col
+    {
+        margin-top: 12px;
+    }
+
+
+    .favipiravir .efficiency .col > *
+    {
+        padding-left: 24px;
+    }
+
+    .favipiravir .efficiency .col > *:before
+    {
+        top: 5px;
+
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .favipiravir .efficiency img
+    {
+        display: none;
+    }
+
+
+    .favipiravir .efficiency .text
+    {
+        font-size: 16px;
+
+        margin-top: 40px;
+        padding: 28px;
+    }
+
+
+
+    .favipiravir .covid19 .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .favipiravir .covid19 .text
+    {
+        font-size: 20px;
+    }
+
+
+
+    .favipiravir .compare
+    {
+        margin-bottom: 60px;
+        padding: 52px 0;
+    }
+
+
+    .favipiravir .compare .item
+    {
+        width: 100%;
+    }
+
+    .favipiravir .compare .item + .item
+    {
+        margin-top: 40px;
+    }
+
+
+    .favipiravir .compare .item .thumb
+    {
+        height: 240px;
+        margin-bottom: 20px;
+    }
+
+
+    .favipiravir .compare .text
+    {
+        font-size: 20px;
+    }
+
+
+
+    .favipiravir .torelability .block_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .favipiravir .torelability .col_left .text
+    {
+        font-size: 16px;
+
+        padding: 24px;
+    }
+
+    .favipiravir .torelability .col_left .text:after
+    {
+        bottom: -10px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .favipiravir .torelability .col_left img
+    {
+        margin-top: 28px;
+    }
+
+
+    .favipiravir .torelability .col_right .text
+    {
+        font-size: 19px;
+    }
+
+
+    .favipiravir .torelability .info
+    {
+        font-size: 16px;
+
+        margin-top: 40px;
+        padding: 24px;
+    }
+
+
+
+    .favipiravir .research .block_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .favipiravir .research .col_left .text
+    {
+        font-size: 17px;
+    }
+
+
+    .favipiravir .research .col_right
+    {
+        margin-top: 40px;
+    }
+
+
+    .favipiravir .research .col_right .text
+    {
+        font-size: 17px;
+    }
+
+
+    .favipiravir .research .message
+    {
+        font-size: 20px;
+
+        margin-top: 52px;
+        padding: 24px;
+    }
+
+
+
+    .favipiravir .performance
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .favipiravir .performance .data
+    {
+        padding: 24px;
+    }
+
+
+    .favipiravir .performance .info .title
+    {
+        font-size: 18px;
+    }
+
+    .favipiravir .performance .info .title sup
+    {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+
+    .favipiravir .performance .info .desc
+    {
+        font-size: 17px;
+
+        margin-top: 24px;
+    }
+
+
+    .favipiravir .performance .image
+    {
+        height: 240px;
+        padding: 24px;
+    }
+
+
+
+    .favipiravir .therapy .title
+    {
+        font-size: 20px;
+        line-height: 140%;
+
+        padding: 60px 0;
+    }
+
+
+    .favipiravir .therapy .exp
+    {
+        font-size: 20px;
+
+        margin-top: 40px;
     }
 
 
