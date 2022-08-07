@@ -30,4 +30,20 @@
     {
         width: 868px;
     }
+
+
+
+    /*---------------
+        Areplivir
+    ---------------*/
+    .areplivir .viruses .info
+    {
+        padding: 52px;
+    }
+
+
+    .areplivir .safety_use .info
+    {
+        width: 824px;
+    }
 }

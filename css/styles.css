@@ -1108,6 +1108,40 @@ header .mob_menu.show .mob_close_btn
 }
 
 
+.page_head .link
+{
+    margin-left: auto;
+
+    align-self: center;
+}
+
+.page_head .link a
+{
+    color: #235091;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+    display: block;
+
+    padding: 23px 70px;
+
+    transition: .2s linear;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border: 2px solid #235091;
+    border-radius: 110px;
+}
+
+.page_head .link a:hover
+{
+    color: #fff;
+
+    background: #235091;
+}
+
+
 
 /*----------------
     Block head
@@ -5044,6 +5078,896 @@ header .mob_menu.show .mob_close_btn
 
     letter-spacing: .01em;
     text-transform: uppercase;
+}
+
+
+
+/*---------------
+    Areplivir
+---------------*/
+.areplivir .head
+{
+    position: relative;
+    z-index: 3;
+
+    overflow: hidden;
+
+    margin-bottom: 81px;
+    padding: 157px 122px 131px;
+
+    border-radius: 110px;
+    background: #ddd;
+}
+
+
+.areplivir .head .data
+{
+    color: #fff;
+
+    width: 475px;
+    max-width: 100%;
+}
+
+
+.areplivir .head .title
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+
+    margin-bottom: 37px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+.areplivir .head .desc
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 130%;
+
+    text-transform: uppercase;
+}
+
+
+.areplivir .head .link
+{
+    margin-top: 32px;
+}
+
+.areplivir .head .link a
+{
+    color: currentColor;
+    font-weight: 600;
+    line-height: 23px;
+
+    display: inline-block;
+
+    width: 302px;
+    max-width: 100%;
+    padding: 23px;
+
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+
+    border: 2px solid #fff;
+    border-radius: 110px;
+}
+
+
+.areplivir .head .bg
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.areplivir .block_head
+{
+    margin-bottom: 81px;
+}
+
+
+
+.areplivir .symptoms
+{
+    margin-bottom: 108px;
+}
+
+
+.areplivir .symptoms .row
+{
+    margin-bottom: -20px;
+    margin-left: -20px;
+
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.areplivir .symptoms .row > *
+{
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.areplivir .symptoms .item
+{
+    padding: 85px 76px 68px;
+
+    border-radius: 110px;
+    background: #f7f8fa;
+}
+
+
+.areplivir .symptoms .item .title
+{
+    color: #235091;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+
+    margin-bottom: 40px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+
+.areplivir .symptoms ol
+{
+    counter-reset: li;
+}
+
+
+.areplivir .symptoms li
+{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+
+    min-height: 85px;
+    padding-left: 112px;
+
+    list-style-type: none;
+
+    letter-spacing: .01em;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.areplivir .symptoms ul li
+{
+    min-height: 125px;
+    padding-left: 167px;
+}
+
+.areplivir .symptoms li + li
+{
+    margin-top: 41px;
+}
+
+.areplivir .symptoms ul li + li
+{
+    margin-top: 23px;
+}
+
+
+.areplivir .symptoms li .number
+{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 75px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 85px;
+    height: 85px;
+
+    text-align: center;
+    letter-spacing: .01em;
+
+    border-radius: 50%;
+    background: #235091;
+}
+
+.areplivir .symptoms li .number:before
+{
+    content: counter(li);
+    counter-increment: li;
+}
+
+
+.areplivir .symptoms li .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 125px;
+    height: 125px;
+
+    border-radius: 40px;
+    background: #fff;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.areplivir .symptoms li .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.areplivir .symptoms li .name
+{
+    font-weight: 700;
+
+    width: 100%;
+}
+
+
+.areplivir .symptoms li .desc
+{
+    width: 100%;
+    margin-top: 8px;
+}
+
+
+
+.areplivir .number_ill
+{
+    margin-bottom: 79px;
+
+    background: #f7f8fa;
+}
+
+
+.areplivir .number_ill .cont
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+.areplivir .number_ill .title
+{
+    color: #235091;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+
+    margin-right: auto;
+    padding: 79px 83px 78px 0;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+
+    border-right: 4px solid #fff;
+}
+
+
+.areplivir .number_ill .item
+{
+    display: flex;
+
+    padding: 79px 0 78px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.areplivir .number_ill .item + .item
+{
+    margin-left: 62px;
+}
+
+
+.areplivir .number_ill .item .label
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+.areplivir .number_ill .item .val
+{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+
+    margin-left: 23px;
+    padding: 12px 40px 19px 41px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+
+    border-radius: 100px;
+    background: #235091;
+}
+
+.areplivir .number_ill .item .val.orange
+{
+    background: #ea7327;
+}
+
+
+
+.areplivir .viruses
+{
+    margin-bottom: 109px;
+}
+
+
+.areplivir .viruses .block_head
+{
+    margin-bottom: 78px;
+}
+
+
+.areplivir .viruses .row
+{
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+
+.areplivir .viruses .info
+{
+    width: calc(100% - 1147px);
+    padding: 68px 82px 66px 71px;
+
+    border-radius: 40px;
+    background: #f7f8fa;
+}
+
+
+.areplivir .viruses .info .title
+{
+    color: #235091;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+
+    letter-spacing: .01em;
+    text-transform: lowercase;
+}
+
+.areplivir .viruses .info .title::first-letter
+{
+    text-transform: uppercase;
+}
+
+
+.areplivir .viruses .info .desc
+{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    margin-top: 12px;
+
+    letter-spacing: .01em;
+    text-transform: lowercase;
+}
+
+.areplivir .viruses .info .desc > * + *
+{
+    margin-top: 12px;
+}
+
+.areplivir .viruses .info .desc > *::first-letter
+{
+    text-transform: uppercase;
+}
+
+
+.areplivir .viruses .data
+{
+    display: flex;
+
+    width: 1129px;
+    max-width: 100%;
+    padding: 63px 22px 71px 68px;
+
+    border-radius: 40px;
+    background: #f7f8fa;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.areplivir .viruses .data ul
+{
+    width: calc(100% - 494px);
+}
+
+
+.areplivir .viruses .data ul li
+{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    position: relative;
+
+    display: flex;
+
+    min-height: 85px;
+    padding-left: 115px;
+
+    letter-spacing: .01em;
+    text-transform: lowercase;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.areplivir .viruses .data ul li span::first-letter
+{
+    text-transform: uppercase;
+}
+
+.areplivir .viruses .data ul li + li
+{
+    margin-top: 28px;
+}
+
+
+.areplivir .viruses .data ul li:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 85px;
+    height: 85px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: url(../images/ic_check.svg) 50% no-repeat #235091;
+}
+
+
+.areplivir .viruses .data img
+{
+    display: block;
+
+    max-width: 100%;
+    margin-left: auto;
+
+    mix-blend-mode: darken;
+}
+
+
+
+.areplivir .what_is
+{
+    margin-bottom: 80px;
+    padding: 91px 0 110px;
+
+    background: #f7f8fa;
+}
+
+
+.areplivir .what_is .block_head
+{
+    margin-bottom: 47px;
+}
+
+
+.areplivir .what_is .col
+{
+    width: calc(50% - 36px);
+}
+
+.areplivir .what_is .col + .col
+{
+    width: 50%;
+    margin-left: auto;
+}
+
+
+.areplivir .what_is .block_title
+{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+
+    margin-bottom: 48px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+.areplivir .what_is .block_title span
+{
+    color: #ea7327;
+}
+
+
+.areplivir .what_is .col .definition
+{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+
+    position: relative;
+
+    padding: 52px 228px 54px 58px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+
+    border-radius: 40px;
+    background: #fff;
+}
+
+.areplivir .what_is .col .definition span
+{
+    color: #235091;
+
+    display: block;
+
+    margin-bottom: 8px;
+}
+
+.areplivir .what_is .col .definition img
+{
+    position: absolute;
+    top: 81px;
+    right: 56px;
+
+    display: block;
+}
+
+
+.areplivir .what_is .efficiency
+{
+    padding: 63px 66px 76px;
+
+    border-radius: 40px;
+    background: #fff;
+}
+
+
+.areplivir .what_is .efficiency .title
+{
+    color: #235091;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+
+    margin-bottom: 27px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+.areplivir .what_is .efficiency ul
+{
+    column-gap: 40px;
+    column-count: 2;
+}
+
+.areplivir .what_is .efficiency ul > *
+{
+    transform: translateZ(0);
+
+    --webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+
+.areplivir .what_is .efficiency li
+{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 37px;
+
+    list-style-type: none;
+
+    letter-spacing: .01em;
+    text-transform: lowercase;
+}
+
+.areplivir .what_is .efficiency li + li
+{
+    margin-top: 20px;
+}
+
+.areplivir .what_is .efficiency li:before
+{
+    position: absolute;
+    top: 4px;
+    left: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #ea7327;
+}
+
+
+
+.areplivir .efficiency_covid
+{
+    margin-bottom: 88px;
+}
+
+
+.areplivir .efficiency_covid .block_head
+{
+    margin-bottom: 70px;
+}
+
+
+.areplivir .efficiency_covid .row
+{
+    margin-bottom: -100px;
+    margin-left: -100px;
+}
+
+.areplivir .efficiency_covid .row > *
+{
+    width: calc(50% - 100px);
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+
+.areplivir .efficiency_covid .item .thumb
+{
+    display: flex;
+
+    height: 310px;
+    margin-bottom: 64px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.areplivir .efficiency_covid .item .thumb img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.areplivir .efficiency_covid .item .desc
+{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    letter-spacing: .01em;
+    text-transform: lowercase;
+}
+
+.areplivir .efficiency_covid .item .desc span
+{
+    color: #ea7327;
+    font-weight: 700;
+}
+
+
+
+.areplivir .safety_use
+{
+    margin-bottom: 104px;
+}
+
+
+.areplivir .safety_use .data
+{
+    padding: 86px 113px 80px 96px;
+
+    border-radius: 110px;
+    background: #f7f8fa;
+}
+
+
+.areplivir .safety_use .block_head
+{
+    margin-bottom: 47px;
+}
+
+
+.areplivir .safety_use .info
+{
+    width: 920px;
+    max-width: 100%;
+}
+
+
+.areplivir .safety_use .sub_title
+{
+    color: #235091;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+.areplivir .safety_use .desc
+{
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    margin-top: 24px;
+
+    letter-spacing: .01em;
+    text-transform: lowercase;
+}
+
+.areplivir .safety_use .desc > * + *
+{
+    margin-top: 12px;
+}
+
+
+.areplivir .safety_use .img
+{
+    display: block;
+
+    max-width: 100%;
+    margin-left: auto;
+}
+
+
+
+.areplivir .results
+{
+    padding: 112px 0 108px;
+
+    background: #f7f8fa;
+}
+
+
+.areplivir .results .block_title
+{
+    color: #363e43;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+
+    width: 1300px;
+    max-width: 100%;
+    margin-bottom: 74px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+.areplivir .results .block_title span
+{
+    font-weight: 400;
+}
+
+
+.areplivir .results .row
+{
+    margin-bottom: -21px;
+    margin-left: -21px;
+
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.areplivir .results .row > *
+{
+    width: calc(20% - 21px);
+    margin-bottom: 21px;
+    margin-left: 21px;
+}
+
+
+.areplivir .results .item
+{
+    color: var(--text_color);
+
+    display: flex;
+
+    height: 434px;
+    padding: 40px;
+
+    text-decoration: none;
+
+    border-radius: 40px;
+    background: #fff;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.areplivir .results .item img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
 }
 
 

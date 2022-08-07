@@ -271,6 +271,15 @@
     }
 
 
+    .page_head .link a
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        padding: 16px 46px;
+    }
+
+
     .page_head .links a
     {
         padding: 8px 20px;
@@ -290,6 +299,13 @@
     {
         margin-bottom: 40px;
         padding-right: 180px;
+    }
+
+
+    .block_head .title sup
+    {
+        font-size: 18px;
+        line-height: 22px;
     }
 
 
@@ -1991,6 +2007,512 @@
         font-size: 24px;
 
         margin-top: 40px;
+    }
+
+
+
+    /*---------------
+        Areplivir
+    ---------------*/
+    .areplivir .head
+    {
+        margin-bottom: 80px;
+        padding: 60px 48px;
+
+        border-radius: 48px;
+    }
+
+
+    .areplivir .head .title
+    {
+        font-size: 40px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .areplivir .head .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .areplivir .head .link
+    {
+        margin-top: 28px;
+    }
+
+    .areplivir .head .link a
+    {
+        width: 200px;
+        padding: 14px;
+    }
+
+
+
+    .areplivir .block_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+
+    .areplivir .symptoms
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .areplivir .symptoms .row
+    {
+        margin-left: 0;
+    }
+
+    .areplivir .symptoms .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .areplivir .symptoms .item
+    {
+        padding: 40px;
+
+        border-radius: 48px;
+    }
+
+
+    .areplivir .symptoms .item .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 32px;
+    }
+
+    .areplivir .symptoms .item .title br
+    {
+        display: none;
+    }
+
+
+    .areplivir .symptoms li
+    {
+        font-size: 17px;
+
+        min-height: 60px;
+        padding-left: 84px;
+    }
+
+    .areplivir .symptoms li + li
+    {
+        margin-top: 28px;
+    }
+
+
+    .areplivir .symptoms li .number
+    {
+        font-size: 36px;
+        line-height: 52px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .areplivir .symptoms ul
+    {
+        display: flex;
+
+        margin-bottom: -20px;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .areplivir .symptoms ul li
+    {
+        width: calc(50% - 20px);
+        min-height: 92px;
+        margin-bottom: 20px;
+        padding-left: 112px;
+    }
+
+    .areplivir .symptoms ul li + li
+    {
+        margin-top: 0;
+    }
+
+    .areplivir .symptoms li .icon
+    {
+        width: 92px;
+        height: 92px;
+        padding: 16px;
+
+        border-radius: 20px;
+    }
+
+
+
+    .areplivir .number_ill
+    {
+        margin-bottom: 80px;
+        padding: 60px 0;
+    }
+
+
+    .areplivir .number_ill .title
+    {
+        font-size: 32px;
+        line-height: 38px;
+
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 32px;
+        padding: 0;
+    }
+
+    .areplivir .number_ill .title br
+    {
+        display: none;
+    }
+
+
+    .areplivir .number_ill .item
+    {
+        display: block;
+
+        width: calc(50% - 20px);
+        padding: 0;
+    }
+
+    .areplivir .number_ill .item + .item
+    {
+        margin-left: auto;
+    }
+
+
+    .areplivir .number_ill .item .label
+    {
+        font-size: 22px;
+
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .areplivir .number_ill .item .val
+    {
+        font-size: 32px;
+
+        margin-left: 0;
+        padding: 8px 32px 12px;
+
+        text-align: center;
+    }
+
+
+
+    .areplivir .viruses
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .areplivir .viruses .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .areplivir .viruses .info
+    {
+        width: 100%;
+        padding: 40px;
+
+        border-radius: 32px;
+    }
+
+
+    .areplivir .viruses .info .title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .areplivir .viruses .info .title br
+    {
+        display: none;
+    }
+
+    .areplivir .viruses .info .desc
+    {
+        font-size: 18px;
+        line-height: 140%;
+    }
+
+
+    .areplivir .viruses .data
+    {
+        width: 100%;
+        margin-top: 24px;
+        padding: 40px;
+
+        border-radius: 32px;
+    }
+
+
+    .areplivir .viruses .data ul
+    {
+        width: 100%;
+    }
+
+    .areplivir .viruses .data ul li
+    {
+        font-size: 18px;
+        line-height: 140%;
+
+        min-height: 60px;
+        padding-left: 84px;
+    }
+
+    .areplivir .viruses .data ul li:before
+    {
+        width: 60px;
+        height: 60px;
+
+        background-size: 32px auto;
+    }
+
+    .areplivir .viruses .data ul li + li
+    {
+        margin-top: 20px;
+    }
+
+
+    .areplivir .viruses .data img
+    {
+        width: auto;
+        max-width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+
+
+    .areplivir .what_is
+    {
+        padding: 80px 0;
+    }
+
+
+    .areplivir .what_is .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .areplivir .what_is .col,
+    .areplivir .what_is .col + .col
+    {
+        width: 100%;
+    }
+
+
+    .areplivir .what_is .block_title
+    {
+        font-size: 22px;
+        line-height: 140%;
+
+        margin-bottom: 32px;
+    }
+
+
+    .areplivir .what_is .col .definition
+    {
+        font-size: 18px;
+        line-height: 140%;
+
+        padding: 40px 172px 40px 40px;
+
+        border-radius: 32px;
+    }
+
+
+    .areplivir .what_is .col .definition img
+    {
+        top: 64px;
+        right: 24px;
+
+        width: 128px;
+    }
+
+
+    .areplivir .what_is .efficiency
+    {
+        margin-top: 24px;
+        padding: 40px;
+
+        border-radius: 32px;
+    }
+
+
+    .areplivir .what_is .efficiency .title
+    {
+        font-size: 22px;
+        line-height: 140%;
+
+        margin-bottom: 32px;
+    }
+
+
+    .areplivir .what_is .efficiency li
+    {
+        font-size: 17px;
+
+        padding-left: 28px;
+    }
+
+    .areplivir .what_is .efficiency li + li
+    {
+        margin-top: 12px;
+    }
+
+    .areplivir .what_is .efficiency li:before
+    {
+        width: 14px;
+        height: 14px;
+    }
+
+    .areplivir .what_is .efficiency li br
+    {
+        display: none;
+    }
+
+
+
+    .areplivir .efficiency_covid
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .areplivir .efficiency_covid .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .areplivir .efficiency_covid .row
+    {
+        margin-bottom: -48px;
+        margin-left: 0;
+    }
+
+    .areplivir .efficiency_covid .row > *
+    {
+        width: 100%;
+        margin-bottom: 48px;
+        margin-left: 0;
+    }
+
+
+    .areplivir .efficiency_covid .item .thumb
+    {
+        height: 280px;
+        margin-bottom: 32px;
+    }
+
+
+    .areplivir .efficiency_covid .item .desc
+    {
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+
+
+    .areplivir .safety_use
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .areplivir .safety_use .data
+    {
+        padding: 40px;
+
+        border-radius: 48px;
+    }
+
+
+    .areplivir .safety_use .block_head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .areplivir .safety_use .sub_title
+    {
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+
+    .areplivir .safety_use .desc
+    {
+        font-size: 18px;
+        line-height: 140%;
+
+        margin-top: 20px;
+    }
+
+
+    .areplivir .safety_use .img
+    {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+
+
+    .areplivir .results
+    {
+        padding: 80px 0;
+    }
+
+
+    .areplivir .results .block_title
+    {
+        font-size: 24px;
+        line-height: 140%;
+
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+
+    .areplivir .results .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .areplivir .results .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .areplivir .results .item
+    {
+        height: 300px;
+        padding: 24px;
+
+        border-radius: 32px;
     }
 
 

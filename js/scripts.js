@@ -76,6 +76,16 @@ $(() => {
 		}])
 	})
 
+	// Увеличение картинки
+	Fancybox.bind('.fancy_img', {
+		Image: {
+			zoom: false,
+		},
+		Thumbs: {
+			autoStart: false,
+		}
+	})
+
 
 	// Календарь
 	const calendar = new AirDatepicker('#calendar', {
