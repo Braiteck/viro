@@ -561,6 +561,43 @@ button
 
 
 
+/*----------------
+    Mini modal
+----------------*/
+.modal_cont
+{
+    position: relative;
+}
+
+
+.mini_modal
+{
+    position: absolute;
+    z-index: 100;
+    top: calc(100% + 30px);
+    left: 0;
+
+    visibility: hidden;
+
+    transition: .2s linear;
+    pointer-events: none;
+
+    opacity: 0;
+}
+
+.mini_modal.active
+{
+    top: 100%;
+
+    visibility: visible;
+
+    pointer-events: auto;
+
+    opacity: 1;
+}
+
+
+
 /*------------
     Header
 ------------*/
@@ -744,6 +781,115 @@ header .search .btn .icon
 
     width: 33px;
     height: 33px;
+}
+
+
+header .search .mini_modal,
+header .search .mini_modal.active
+{
+    top: -20px;
+    right: -20px;
+    left: auto;
+
+    width: 1000px;
+}
+
+
+header .search form
+{
+    position: relative;
+}
+
+
+header .search form ::-webkit-input-placeholder
+{
+    color: #363e43;
+}
+
+header .search form :-moz-placeholder
+{
+    color: #363e43;
+}
+
+header .search form ::-moz-placeholder
+{
+    color: #363e43;
+
+    opacity: 1;
+}
+
+header .search form :-ms-input-placeholder
+{
+    color: #363e43;
+}
+
+
+header .search form .icon
+{
+    color: #235091;
+
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 25px;
+
+    display: block;
+
+    width: 33px;
+    height: 33px;
+    margin: auto;
+
+    pointer-events: none;
+}
+
+
+header .search form .input
+{
+    color: #363e43;
+    font-family: var(--font_family3);
+    font-size: 22px;
+
+    display: block;
+
+    width: 100%;
+    height: 73px;
+    padding-right: 83px;
+    padding-left: 83px;
+
+    border: 3px solid #ced3dc;
+    border-radius: 100px;
+    background: #fff;
+}
+
+
+header .search form .close_btn
+{
+    color: #235091;
+
+    position: absolute;
+    top: 0;
+    right: 25px;
+    bottom: 0;
+
+    display: flex;
+
+    width: 33px;
+    height: 33px;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header .search form .close_btn svg
+{
+    display: block;
+
+    width: 25px;
+    height: 25px;
 }
 
 
@@ -1740,22 +1886,57 @@ header .mob_menu.show .mob_close_btn
 }
 
 
+.first_section .stats .title
+{
+    color: #363e43;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+
+    margin-bottom: 28px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
 .first_section .stats .row
 {
-    margin-bottom: -32px;
-    margin-left: -48px;
-}
+    position: relative;
 
-.first_section .stats .row > *
-{
-    width: calc(50% - 48px);
-    margin-bottom: 32px;
-    margin-left: 48px;
+    padding-left: 120px;
+
+    justify-content: space-between;
 }
 
 
-.first_section .stats .item
+.first_section .stats .row .label
 {
+    color: #363e43;
+    font-family: var(--font_family3);
+    font-size: 17px;
+    line-height: 26px;
+
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+
+    white-space: nowrap;
+}
+
+.first_section .stats .row .label + .label
+{
+    bottom: 0;
+}
+
+
+.first_section .stats .item .icon
+{
+    color: #363e43;
+    font-family: var(--font_family3);
+    font-size: 17px;
+    line-height: 21px;
+
     display: flex;
 
     justify-content: space-between;
@@ -1764,57 +1945,56 @@ header .mob_menu.show .mob_close_btn
     flex-wrap: wrap;
 }
 
-
-.first_section .stats .item .icon
-{
-    display: flex;
-
-    width: 81px;
-    height: 81px;
-    padding: 12px;
-
-    border-radius: 50%;
-    background: #235091;
-
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-
-.first_section .stats .item .icon + *
-{
-    width: calc(100% - 101px);
-}
-
-.first_section .stats .item .icon.orange
-{
-    background: #ea7327;
-}
-
 .first_section .stats .item .icon img
 {
     display: block;
 
-    max-width: 100%;
-    max-height: 100%;
+    width: 42px;
+    height: 42px;
+    margin-right: 14px;
+}
+
+.first_section .stats .item .icon div
+{
+    width: calc(100% - 56px);
 }
 
 
-.first_section .stats .item .val
+.first_section .stats .item .per_day
 {
-    font-family: var(--font_family3);
+    color: #969696;
     font-size: 48px;
     font-weight: 800;
     line-height: 120%;
+
+    padding-left: 28px;
+}
+
+.first_section .stats .item .per_day.blue
+{
+    color: #235091;
+}
+
+.first_section .stats .item .per_day.orange
+{
+    color: #ea7327;
+}
+
+.first_section .stats .item .per_day.dark
+{
+    color: #363e43;
 }
 
 
-.first_section .stats .item .exp
+.first_section .stats .item .total
 {
+    color: #969696;
     font-family: var(--font_family3);
-    font-size: 15px;
-    line-height: 19px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 120%;
+
+    text-align: right;
 }
 
 

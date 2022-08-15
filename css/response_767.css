@@ -105,6 +105,64 @@
 
 
 
+    header .search
+    {
+        position: static;
+    }
+
+
+    header .search .btn .icon
+    {
+        width: 26px;
+        height: 26px;
+    }
+
+
+    header .search .mini_modal,
+    header .search .mini_modal.active
+    {
+        top: 10px;
+        right: 20px;
+
+        width: calc(100vw - 40px);
+    }
+
+
+    header .search form .icon
+    {
+        left: 20px;
+
+        width: 26px;
+        height: 26px;
+    }
+
+    header .search form .input
+    {
+        font-size: 20px;
+
+        height: 58px;
+        padding-right: 64px;
+        padding-left: 64px;
+
+        border-width: 2px;
+    }
+
+    header .search form .close_btn
+    {
+        right: 20px;
+
+        width: 26px;
+        height: 26px;
+    }
+
+    header .search form .close_btn svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
     /*---------------
         Page head
     ---------------*/
@@ -278,32 +336,72 @@
     /*-------------------
         First section
     -------------------*/
-    .first_section .status
-    {
-        font-size: 31px;
-    }
-
-
     .first_section .desc
     {
         font-size: 19px;
     }
 
 
-    .first_section .stats .item .icon
-    {
-        margin-bottom: 8px;
-    }
-
-    .first_section .stats .item .icon + *
+    .first_section .stats
     {
         width: 100%;
+        margin-top: 32px;
     }
 
 
-    .first_section .stats .item .val
+    .first_section .stats .title
     {
-        font-size: 35px;
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .first_section .stats .row
+    {
+        padding: 0;
+    }
+
+
+    .first_section .stats .item .icon
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .first_section .stats .item .icon img
+    {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .first_section .stats .item .icon div
+    {
+        width: calc(100% - 45px);
+    }
+
+
+    .first_section .stats .row .label
+    {
+        display: none;
+    }
+
+
+    .first_section .stats .item .per_day
+    {
+        font-size: 36px;
+
+        padding-left: 21px;
+    }
+
+    .first_section .stats .item .total
+    {
+        font-size: 18px;
+
+        padding-left: 21px;
+
+        text-align: left;
     }
 
 
