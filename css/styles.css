@@ -5972,6 +5972,732 @@ header .mob_menu.show .mob_close_btn
 
 
 
+/*-------------
+    Skyvira
+-------------*/
+.skyvira .head
+{
+    margin-bottom: 81px;
+}
+
+
+.skyvira .head .data
+{
+    color: #fff;
+
+    display: flex;
+
+    padding: 70px 200px 75px 122px;
+
+    border-radius: 110px;
+    background: linear-gradient(89.89deg, #29649e .1%, #00a6e8 99.91%);
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.skyvira .head .info
+{
+    color: #fff;
+
+    width: 480px;
+    max-width: 100%;
+}
+
+
+.skyvira .head .title
+{
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 130%;
+
+    margin-bottom: 37px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+.skyvira .head .desc
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 130%;
+
+    text-transform: uppercase;
+}
+
+
+.skyvira .head .link
+{
+    margin-top: 32px;
+}
+
+.skyvira .head .link a
+{
+    color: currentColor;
+    font-weight: 600;
+    line-height: 23px;
+
+    display: inline-block;
+
+    width: 302px;
+    max-width: 100%;
+    padding: 23px;
+
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+
+    border: 2px solid #fff;
+    border-radius: 110px;
+}
+
+
+.skyvira .head .img
+{
+    display: block;
+
+    max-width: 75%;
+    max-height: 100%;
+    margin-left: auto;
+}
+
+
+
+.skyvira .risk_groups
+{
+    margin-bottom: 60px;
+}
+
+
+.skyvira .risk_groups .block_title
+{
+    color: #363e43;
+    font-family: var(--font_family2);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+
+    margin-bottom: 60px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+.skyvira .risk_groups .items
+{
+    position: relative;
+}
+
+
+.skyvira .risk_groups .items img
+{
+    display: block;
+
+    max-width: 100%;
+    margin: 0 auto;
+
+    transform: translateX(-76px);
+}
+
+
+.skyvira .risk_groups .col
+{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+
+    width: 444px;
+
+    text-align: right;
+}
+
+.skyvira .risk_groups .col + .col
+{
+    right: 0;
+    left: auto;
+
+    width: 600px;
+
+    text-align: left;
+}
+
+
+.skyvira .risk_groups .col > *
+{
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 93px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+.skyvira .risk_groups .col > * + *
+{
+    margin-top: 17px;
+}
+
+
+.skyvira .risk_groups .col span
+{
+    position: relative;
+
+    display: inline-block;
+
+    padding: 0 50px;
+
+    vertical-align: top;
+
+    border-radius: 19.9981px;
+    background: #fff;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .1);
+}
+
+.skyvira .risk_groups .col span:before
+{
+    position: absolute;
+    top: 0;
+    right: -11px;
+    bottom: 0;
+
+    display: block;
+
+    width: 24px;
+    height: 24px;
+    margin: auto;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #ff6936;
+}
+
+.skyvira .risk_groups .col + .col span:before
+{
+    right: auto;
+    left: -11px;
+}
+
+
+
+.skyvira .covid19
+{
+    margin-bottom: 88px;
+}
+
+
+.skyvira .covid19 .data
+{
+    padding: 99px 61px 99px 107px;
+
+    border-radius: 110px;
+    background: #f7f8fa;
+}
+
+
+.skyvira .covid19 .row
+{
+    margin-bottom: -32px;
+    margin-left: -24px;
+
+    justify-content: space-between;
+}
+
+.skyvira .covid19 .row > *
+{
+    margin-bottom: 32px;
+    margin-left: 24px;
+}
+
+
+.skyvira .covid19 .item
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    text-align: center;
+    letter-spacing: .01em;
+}
+
+
+.skyvira .covid19 .item .icon
+{
+    display: flex;
+
+    height: 113px;
+    margin-bottom: 49px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.skyvira .covid19 .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.skyvira .covid19 .title
+{
+    color: #202020;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+
+    margin-top: 80px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+.skyvira .covid19 .title > * + *
+{
+    margin-top: 10px;
+}
+
+.skyvira .covid19 .title span
+{
+    color: #ff6936;
+}
+
+
+
+.skyvira .research_results
+{
+    margin-bottom: 108px;
+}
+
+
+.skyvira .research_results .thumb
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 309px;
+    height: 309px;
+
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.skyvira .research_results .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
+}
+
+.skyvira .research_results .thumb + *
+{
+    width: calc(100% - 374px);
+    margin-left: auto;
+}
+
+
+.skyvira .research_results .title
+{
+    color: #202020;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+
+    letter-spacing: .01em;
+}
+
+.skyvira .research_results .title span
+{
+    color: #235091;
+}
+
+
+.skyvira .research_results .exp
+{
+    color: #235091;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+
+    margin-top: 40px;
+
+    letter-spacing: .01em;
+}
+
+
+.skyvira .research_results .items
+{
+    display: flex;
+
+    margin-top: 130px;
+    margin-bottom: -32px;
+    margin-left: -24px;
+    padding: 0 80px;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skyvira .research_results .items > *
+{
+    margin-bottom: 32px;
+    margin-left: 24px;
+}
+
+
+.skyvira .research_results .item
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    text-align: center;
+    letter-spacing: .01em;
+}
+
+
+.skyvira .research_results .item .icon
+{
+    display: flex;
+
+    height: 113px;
+    margin-bottom: 49px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.skyvira .research_results .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.skyvira .dynamics
+{
+    margin-bottom: 103px;
+    padding: 115px 0;
+
+    background: #f7f8fa;
+}
+
+
+.skyvira .dynamics .block_title
+{
+    color: #363e43;
+    font-family: var(--font_family2);
+    font-size: 48px;
+    line-height: 120%;
+
+    margin-bottom: 50px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+.skyvira .dynamics .img
+{
+    display: block;
+
+    max-width: 100%;
+    margin-bottom: 58px;
+}
+
+
+.skyvira .dynamics .items
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skyvira .dynamics .items > *
+{
+    width: 460px;
+    max-width: 100%;
+}
+
+
+.skyvira .dynamics .item
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    letter-spacing: .01em;
+}
+
+.skyvira .dynamics .item .val
+{
+    color: #235091;
+    font-family: var(--font_family2);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+
+    margin-bottom: 14px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+
+.skyvira .mode_app
+{
+    color: #000;
+
+    margin-bottom: 55px;
+}
+
+
+.skyvira .mode_app .block_head
+{
+    margin-bottom: 54px;
+}
+
+
+.skyvira .mode_app .items
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+
+    width: 724px;
+    max-width: 100%;
+
+    letter-spacing: .01em;
+
+    align-self: center;
+}
+
+
+.skyvira .mode_app .item
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skyvira .mode_app .item + .item
+{
+    margin-top: 32px;
+}
+
+
+.skyvira .mode_app .items .icon
+{
+    display: flex;
+
+    width: 72px;
+    height: 72px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.skyvira .mode_app .items .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.skyvira .mode_app .items .icon + *
+{
+    width: calc(100% - 104px);
+
+    align-self: center;
+}
+
+
+.skyvira .mode_app .items b
+{
+    color: #235091;
+}
+
+
+.skyvira .mode_app .items ul
+{
+    margin-top: 10px;
+}
+
+.skyvira .mode_app .items ul li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 28px;
+
+    list-style-type: none;
+}
+
+.skyvira .mode_app .items ul li + li
+{
+    margin-top: 10px;
+}
+
+.skyvira .mode_app .items ul li:before
+{
+    position: absolute;
+    top: 9px;
+    left: 0;
+
+    display: block;
+
+    width: 9px;
+    height: 9px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: #ea7327;
+}
+
+
+.skyvira .mode_app .link
+{
+    margin-top: 48px;
+    margin-left: 104px;
+}
+
+.skyvira .mode_app .link a
+{
+    color: #235091;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+    display: inline-block;
+
+    padding: 13px 43px;
+
+    transition: .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    border: 2px solid #235091;
+    border-radius: 110px;
+}
+
+.skyvira .mode_app .link a:hover
+{
+    color: #fff;
+
+    background: #235091;
+}
+
+
+.skyvira .mode_app .image
+{
+    display: block;
+
+    width: 50%;
+    margin-top: -60px;
+    margin-left: auto;
+}
+
+.skyvira .mode_app .image img
+{
+    display: block;
+
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.skyvira .mode_app .notice
+{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+
+    display: flex;
+
+    margin-top: 36px;
+
+    letter-spacing: .01em;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.skyvira .mode_app .notice img
+{
+    display: block;
+
+    width: 72px;
+    height: 72px;
+    margin: 0;
+}
+
+.skyvira .mode_app .notice img + *
+{
+    width: 560px;
+    max-width: calc(100% - 96px);
+    margin-left: 24px;
+}
+
+
+.skyvira .mode_app .exp
+{
+    color: #bfbfbf;
+    font-size: 42px;
+    line-height: 120%;
+
+    margin-top: 71px;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+
 /*-----------
     Notes
 -----------*/

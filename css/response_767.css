@@ -1765,6 +1765,289 @@
 
 
 
+    /*-------------
+        Skyvira
+    -------------*/
+    .skyvira .head .data
+    {
+        padding: 48px;
+
+        border-radius: 32px;
+    }
+
+
+    .skyvira .head .title
+    {
+        font-size: 22px;
+    }
+
+
+    .skyvira .head .link
+    {
+        margin-top: 24px;
+    }
+
+    .skyvira .head .link a
+    {
+        width: 200px;
+        padding: 14px;
+    }
+
+
+    .skyvira .head .img
+    {
+        max-width: 100%;
+    }
+
+
+
+    .skyvira .risk_groups .block_title
+    {
+        font-size: 36px;
+    }
+
+
+    .skyvira .risk_groups .col
+    {
+        margin-left: -28px;
+    }
+
+    .skyvira .risk_groups .col > *
+    {
+        font-size: 14px;
+        line-height: 44px;
+
+        margin-left: 28px;
+    }
+
+
+    .skyvira .risk_groups .col span
+    {
+        padding: 0 24px;
+    }
+
+
+
+    .skyvira .covid19 .data
+    {
+        padding: 48px;
+
+        border-radius: 32px;
+    }
+
+
+    .skyvira .covid19 .row
+    {
+        margin-bottom: -24px;
+    }
+
+    .skyvira .covid19 .row > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .skyvira .covid19 .item
+    {
+        font-size: 16px;
+    }
+
+    .skyvira .covid19 .item .icon
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skyvira .covid19 .item .icon + *
+    {
+        width: calc(100% - 70px);
+    }
+
+
+    .skyvira .covid19 .title
+    {
+        font-size: 18px;
+
+        margin-top: 48px;
+    }
+
+
+
+    .skyvira .research_results .thumb
+    {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 40px;
+    }
+
+    .skyvira .research_results .thumb + *
+    {
+        width: 100%;
+    }
+
+
+    .skyvira .research_results .title
+    {
+        font-size: 22px;
+    }
+
+
+    .skyvira .research_results .items
+    {
+        margin-top: 40px;
+        margin-bottom: -24px;
+    }
+
+    .skyvira .research_results .items > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .skyvira .research_results .item
+    {
+        font-size: 16px;
+    }
+
+    .skyvira .research_results .item .icon
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skyvira .research_results .item .icon + *
+    {
+        width: calc(100% - 70px);
+    }
+
+
+
+    .skyvira .dynamics
+    {
+        padding: 60px 0;
+    }
+
+
+    .skyvira .dynamics .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .skyvira .dynamics .item
+    {
+        font-size: 16px;
+
+        width: 100%;
+        margin-top: 28px;
+    }
+
+    .skyvira .dynamics .item .val
+    {
+        font-size: 32px;
+    }
+
+
+
+    .skyvira .mode_app .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .skyvira .mode_app .items
+    {
+        font-size: 18px;
+        line-height: 130%;
+
+        width: 100%;
+    }
+
+
+    .skyvira .mode_app .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .skyvira .mode_app .items .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skyvira .mode_app .items .icon + *
+    {
+        width: calc(100% - 88px);
+    }
+
+    .skyvira .mode_app .items ul li:before
+    {
+        top: 8px;
+    }
+
+
+    .skyvira .mode_app .link
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .skyvira .mode_app .link a
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .skyvira .mode_app .items
+    {
+        font-size: 17px;
+    }
+
+
+    .skyvira .mode_app .items .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .skyvira .mode_app .items .icon + *
+    {
+        width: calc(100% - 72px);
+    }
+
+
+    .skyvira .mode_app .notice
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .skyvira .mode_app .notice img
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skyvira .mode_app .notice img + *
+    {
+        max-width: calc(100% - 90px);
+        margin-left: 20px;
+    }
+
+
+    .skyvira .mode_app .exp
+    {
+        font-size: 20px;
+
+        margin-top: 40px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

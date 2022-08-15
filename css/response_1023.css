@@ -2517,6 +2517,382 @@
 
 
 
+    /*-------------
+        Skyvira
+    -------------*/
+    .skyvira .head .data
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .skyvira .head .data
+    {
+        padding: 60px;
+
+        text-align: center;
+
+        border-radius: 48px;
+    }
+
+
+    .skyvira .head .info
+    {
+        width: 100%;
+    }
+
+
+    .skyvira .head .title
+    {
+        font-size: 26px;
+    }
+
+
+    .skyvira .head .link
+    {
+        margin-top: 32px;
+    }
+
+    .skyvira .head .link a
+    {
+        width: 232px;
+        padding: 18px;
+    }
+
+
+    .skyvira .head img
+    {
+        margin: 60px auto 0;
+    }
+
+
+
+    .skyvira .risk_groups .block_title
+    {
+        font-size: 40px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    .skyvira .risk_groups .items
+    {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .skyvira .risk_groups .items img
+    {
+        display: none;
+    }
+
+
+    .skyvira .risk_groups .col
+    {
+        position: relative;
+        bottom: 0;
+
+        display: flex;
+
+        width: 100%;
+        margin-bottom: -20px;
+        margin-left: -32px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .skyvira .risk_groups .col > *
+    {
+        font-size: 15px;
+        line-height: 50px;
+
+        margin-bottom: 20px;
+        margin-left: 32px;
+    }
+
+    .skyvira .risk_groups .col > * + *
+    {
+        margin-top: 0;
+    }
+
+    .skyvira .risk_groups .col span
+    {
+        padding: 0 30px;
+    }
+
+    .skyvira .risk_groups .col span:before,
+    .skyvira .risk_groups .col + .col span:before
+    {
+        right: auto;
+        left: -8px;
+
+        width: 18px;
+        height: 18px;
+    }
+
+    .skyvira .risk_groups .col + .col
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    .skyvira .covid19 .data
+    {
+        padding: 60px;
+
+        border-radius: 48px;
+    }
+
+
+    .skyvira .covid19 .item
+    {
+        font-size: 18px;
+
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .skyvira .covid19 .item .icon
+    {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .skyvira .covid19 .item .icon + *
+    {
+        width: calc(100% - 84px);
+
+        align-self: center;
+    }
+
+    .skyvira .covid19 .item br
+    {
+        display: none;
+    }
+
+
+    .skyvira .covid19 .title
+    {
+        font-size: 22px;
+
+        margin-top: 60px;
+    }
+
+
+
+    .skyvira .research_results
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .skyvira .research_results .thumb
+    {
+        width: 240px;
+        height: 240px;
+    }
+
+    .skyvira .research_results .thumb + *
+    {
+        width: calc(100% - 280px);
+    }
+
+
+    .skyvira .research_results .title
+    {
+        font-size: 24px;
+        line-height: 140%;
+    }
+
+
+    .skyvira .research_results .exp
+    {
+        font-size: 12px;
+        line-height: 140%;
+
+        margin-top: 30px;
+    }
+
+
+    .skyvira .research_results .items
+    {
+        margin-top: 60px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+
+    .skyvira .research_results .item
+    {
+        font-size: 18px;
+
+        display: flex;
+
+        text-align: left;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .skyvira .research_results .item .icon
+    {
+        width: 60px;
+        height: 60px;
+        margin: 0;
+    }
+
+    .skyvira .research_results .item .icon + *
+    {
+        width: calc(100% - 84px);
+
+        align-self: center;
+    }
+
+    .skyvira .research_results .item br
+    {
+        display: none;
+    }
+
+
+
+    .skyvira .dynamics
+    {
+        margin-bottom: 80px;
+        padding: 80px 0;
+    }
+
+
+    .skyvira .dynamics .block_title
+    {
+        font-size: 33px;
+        line-height: 130%;
+
+        margin-bottom: 40px;
+    }
+
+
+    .skyvira .dynamics .img
+    {
+        margin-bottom: 0;
+    }
+
+
+    .skyvira .dynamics .item
+    {
+        font-size: 18px;
+
+        width: calc(50% - 24px);
+        margin-top: 40px;
+    }
+
+    .skyvira .dynamics .item .val
+    {
+        font-size: 36px;
+
+        margin-bottom: 10px;
+    }
+
+
+
+    .skyvira .mode_app .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .skyvira .mode_app .items
+    {
+        font-size: 18px;
+        line-height: 130%;
+
+        width: 100%;
+    }
+
+
+    .skyvira .mode_app .item + .item
+    {
+        margin-top: 20px;
+    }
+
+
+    .skyvira .mode_app .items .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skyvira .mode_app .items .icon + *
+    {
+        width: calc(100% - 88px);
+    }
+
+    .skyvira .mode_app .items ul li:before
+    {
+        top: 8px;
+    }
+
+
+    .skyvira .mode_app .link
+    {
+        margin-top: 40px;
+        margin-left: 88px;
+    }
+
+    .skyvira .mode_app .link a
+    {
+        padding: 10px 30px;
+    }
+
+
+    .skyvira .mode_app .image
+    {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+
+    .skyvira .mode_app .notice
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .skyvira .mode_app .notice img
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .skyvira .mode_app .exp
+    {
+        font-size: 24px;
+
+        margin-top: 48px;
+    }
+
+
+
     /*-----------
         Notes
     -----------*/
