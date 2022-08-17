@@ -332,6 +332,80 @@
     }
 
 
+    .text_block h2
+    {
+        font-size: 32px;
+    }
+
+    .text_block h3
+    {
+        font-size: 28px;
+    }
+
+    .text_block h4
+    {
+        font-size: 24px;
+    }
+
+    .text_block h5
+    {
+        font-size: 22px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3,
+    .text_block * + h4,
+    .text_block * + h5
+    {
+        margin-top: 48px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: 100%;
+    }
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 24px;
+    }
+
+
+    .text_block table
+    {
+        width: 900px;
+        padding: 16px 20px;
+    }
+
+
+    .text_block .message
+    {
+        padding: 32px;
+
+        border-radius: 40px;
+    }
+
+    .text_block .message .title,
+    .text_block .message .text
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block ul li:before
+    {
+        top: 8px;
+    }
+
+    .text_block ul li + li,
+    .text_block ol li + li
+    {
+        margin-top: 12px;
+    }
+
+
 
     /*-------------------
         First section
@@ -2142,6 +2216,44 @@
         font-size: 20px;
 
         margin-top: 40px;
+    }
+
+
+
+    /*-------------
+        Socials
+    -------------*/
+    .socials
+    {
+        right: 28px;
+
+        width: 300px;
+        padding: 32px;
+    }
+
+
+    .socials .close_btn
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .socials .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+    .socials .items a + a
+    {
+        margin-left: 20px;
+    }
+
+    .socials .items .icon
+    {
+        width: 44px;
+        height: 44px;
     }
 
 

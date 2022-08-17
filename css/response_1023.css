@@ -479,6 +479,79 @@
     }
 
 
+    .text_block h2
+    {
+        font-size: 36px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h3
+    {
+        font-size: 32px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h4
+    {
+        font-size: 26px;
+
+        margin-bottom: 24px;
+    }
+
+    .text_block h5
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3,
+    .text_block * + h4,
+    .text_block * + h5
+    {
+        margin-top: 60px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .text_block .table_wrap
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .text_block table th,
+    .text_block table td
+    {
+        padding: 16px 20px;
+    }
+
+
+    .text_block .message
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 40px;
+
+        border-radius: 48px;
+    }
+
+    .text_block .message .title,
+    .text_block .message .text
+    {
+        font-size: 22px;
+    }
+
+
 
     /*-------------------
         First section
@@ -2981,6 +3054,45 @@
     .notes .text > * + *
     {
         margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Socials
+    -------------*/
+    .socials
+    {
+        right: 32px;
+
+        width: 360px;
+        padding: 40px;
+    }
+
+
+    .socials .close_btn
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .socials .close_btn .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+    .socials .title
+    {
+        font-size: 26px;
+
+        margin-bottom: 30px;
+    }
+
+    .socials .items .icon
+    {
+        width: 50px;
+        height: 50px;
     }
 
 

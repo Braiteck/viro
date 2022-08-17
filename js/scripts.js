@@ -28,6 +28,14 @@ $(() => {
 	}
 
 
+	// Соц. сети
+	$('.socials .close_btn').click(function (e) {
+		e.preventDefault()
+
+		$('.socials').hide()
+	})
+
+
 	// Моб. меню
 	$('header .mob_menu_btn').click((e) => {
 		e.preventDefault()
