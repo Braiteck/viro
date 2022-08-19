@@ -4,7 +4,8 @@
     /*-------------------
         Global styles
     -------------------*/
-    .wrap
+    .wrap,
+    .fancybox__container
     {
         zoom: .72;
     }

@@ -84,6 +84,12 @@ $(() => {
 		}])
 	})
 
+	$('body').on('click', '.modal .close_btn', function (e) {
+		e.preventDefault()
+
+		Fancybox.close()
+	})
+
 	// Увеличение картинки
 	Fancybox.bind('.fancy_img', {
 		Image: {
@@ -229,6 +235,15 @@ $(() => {
 				// Свайп слева на право
 			}
 		})
+	}
+
+
+	// Всплывашка предупреждения
+	if ($('#warning_modal').length) {
+		Fancybox.show([{
+			src: '#warning_modal',
+			type: 'inline'
+		}])
 	}
 })
 

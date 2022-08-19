@@ -7619,3 +7619,78 @@ footer .logo .name:after
 
     margin-top: 26px;
 }
+
+
+
+#warning_modal
+{
+    width: 1082px;
+    padding: 100px 119px 117px 111px;
+}
+
+
+#warning_modal .carousel__button.is-close
+{
+    display: none !important;
+}
+
+
+#warning_modal .title
+{
+    color: #235091;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 132%;
+
+    letter-spacing: .01em;
+    text-transform: uppercase;
+}
+
+
+#warning_modal .desc
+{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+
+    margin-top: 40px;
+}
+
+
+#warning_modal .btns
+{
+    display: flex;
+
+    margin-top: 80px;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+#warning_modal .btn
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+    width: calc(50% - 25px);
+    padding: 36px;
+
+    text-transform: uppercase;
+
+    border: 2px solid #235091;
+    border-radius: 110px;
+    background: #235091;
+}
+
+#warning_modal .btn.border
+{
+    color: #235091;
+
+    background: none;
+}

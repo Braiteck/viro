@@ -11,12 +11,10 @@
     }
 
 
-    .wrap
+    .wrap,
+    .fancybox__container
     {
         zoom: 1;
-
-        -moz-transform: scale(1);
-        -moz-transform-origin: center top;
     }
 
 
@@ -3153,5 +3151,45 @@
     .video_modal .title
     {
         font-size: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #warning_modal
+    {
+        padding: 60px;
+    }
+
+
+    #warning_modal .title
+    {
+        font-size: 38px;
+    }
+
+    #warning_modal .desc
+    {
+        font-size: 18px;
+
+        margin-top: 24px;
+    }
+
+
+    #warning_modal .btns
+    {
+        margin-top: 40px;
+    }
+
+    #warning_modal .btn
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        width: calc(50% - 12px);
+        padding: 22px;
+
+        border-radius: 48px;
     }
 }
