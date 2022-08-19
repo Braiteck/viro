@@ -21,4 +21,14 @@
             transform-origin: left top;
         }
     }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header.fixed .menu
+    {
+        left: 380px;
+    }
 }

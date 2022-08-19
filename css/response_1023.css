@@ -152,7 +152,7 @@
     }
 
 
-    header .account + .sep
+    header .sep.hide
     {
         display: block;
     }
@@ -283,6 +283,23 @@
     {
         width: 20px;
         height: 20px;
+    }
+
+
+
+    header.fixed
+    {
+        padding: 20px 0;
+    }
+
+    header.fixed .logo .name
+    {
+        font-size: 28px;
+    }
+
+    header.fixed .menu
+    {
+        display: none;
     }
 
 
