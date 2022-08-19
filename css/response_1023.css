@@ -1,41 +1,36 @@
 @media print,
-(max-width: 1023px)
-{
+(max-width: 1023px) {
+
     /*-------------------
         Global styles
     -------------------*/
-    :root
-    {
+    :root {
         --font_size: 18px;
         --font_size_title: 36px;
     }
 
 
     .wrap,
-    .fancybox__container
-    {
+    .fancybox__container {
         zoom: 1;
     }
 
 
 
     .swiper-button-next,
-    .swiper-button-prev
-    {
+    .swiper-button-prev {
         top: -110px;
 
         width: 64px;
         height: 64px;
     }
 
-    .swiper-button-prev
-    {
+    .swiper-button-prev {
         right: 80px;
     }
 
     .swiper-button-next .icon,
-    .swiper-button-prev .icon
-    {
+    .swiper-button-prev .icon {
         width: 28px;
         height: 14px;
     }
@@ -45,14 +40,12 @@
     /*--------------
         Fancybox
     --------------*/
-    .fancybox__slide
-    {
+    .fancybox__slide {
         padding: 24px;
     }
 
 
-    .fancybox__content > .carousel__button.is-close
-    {
+    .fancybox__content>.carousel__button.is-close {
         top: -20px;
         right: -20px;
 
@@ -61,9 +54,8 @@
     }
 
 
-    .modal.fancybox__content > .carousel__button.is-close svg,
-    .modal + .carousel__button.is-close svg
-    {
+    .modal.fancybox__content>.carousel__button.is-close svg,
+    .modal+.carousel__button.is-close svg {
         width: 20px;
         height: 20px;
     }
@@ -73,14 +65,12 @@
     /*---------------
         Load more
     ---------------*/
-    .load_more
-    {
+    .load_more {
         margin-top: 52px;
     }
 
 
-    .load_more .btn
-    {
+    .load_more .btn {
         padding: 20px 72px;
 
         border-radius: 40px;
@@ -91,8 +81,7 @@
     /*----------------
         Datepicker
     ----------------*/
-    .air-datepicker
-    {
+    .air-datepicker {
         --adp-day-cell-height: 50px;
         --adp-month-cell-height: 50px;
     }
@@ -101,8 +90,7 @@
     .air-datepicker-cell,
     .air-datepicker-cell.-current-,
     .air-datepicker-cell.-day-.-other-month-,
-    .air-datepicker-cell.-year-.-other-decade-
-    {
+    .air-datepicker-cell.-year-.-other-decade- {
         margin-top: 0;
     }
 
@@ -111,27 +99,23 @@
     /*------------
         Header
     ------------*/
-    header
-    {
+    header {
         z-index: 90;
 
         padding: 24px 0;
     }
 
-    header.border
-    {
+    header.border {
         margin-bottom: 48px;
         padding-bottom: 23px;
     }
 
 
-    header .logo .name
-    {
+    header .logo .name {
         font-size: 40px;
     }
 
-    header .logo .name:after
-    {
+    header .logo .name:after {
         top: -4px;
         right: -14px;
 
@@ -139,33 +123,28 @@
         height: 12px;
     }
 
-    header .logo .desc
-    {
+    header .logo .desc {
         display: none;
     }
 
 
-    header .sep
-    {
+    header .sep {
         margin-right: 20px;
         margin-left: 20px;
     }
 
 
-    header .sep.hide
-    {
+    header .sep.hide {
         display: block;
     }
 
 
-    header .mob_menu_btn
-    {
+    header .mob_menu_btn {
         display: flex;
     }
 
 
-    header .mob_menu
-    {
+    header .mob_menu {
         position: fixed;
         z-index: 101;
         top: 0;
@@ -175,7 +154,7 @@
         height: 100%;
         min-height: -moz-available;
         min-height: -webkit-fill-available;
-        min-height:         fill-available;
+        min-height: fill-available;
         margin: 0 !important;
         padding: 0;
 
@@ -185,21 +164,19 @@
         background: #fff;
     }
 
-    header .mob_menu.show
-    {
+    header .mob_menu.show {
         transform: translateX(0);
     }
 
 
-    header .menu
-    {
+    header .menu {
         display: flex;
         overflow: auto;
 
         height: 100%;
         min-height: -moz-available;
         min-height: -webkit-fill-available;
-        min-height:         fill-available;
+        min-height: fill-available;
         padding: 12px 0;
 
         justify-content: flex-start;
@@ -209,19 +186,16 @@
         overscroll-behavior-y: contain;
     }
 
-    header .menu > *
-    {
+    header .menu>* {
         width: 100%;
     }
 
-    header .menu_item + .menu_item
-    {
+    header .menu_item+.menu_item {
         margin-left: 0;
     }
 
 
-    header .menu_item > a
-    {
+    header .menu_item>a {
         font-size: 22px;
         line-height: 28px;
 
@@ -233,8 +207,7 @@
     }
 
 
-    header .search .btn .icon
-    {
+    header .search .btn .icon {
         display: block;
 
         width: 28px;
@@ -243,8 +216,7 @@
 
 
     header .search .mini_modal,
-    header .search .mini_modal.active
-    {
+    header .search .mini_modal.active {
         top: -15px;
         right: -10px;
 
@@ -252,16 +224,14 @@
     }
 
 
-    header .search form .icon
-    {
+    header .search form .icon {
         left: 20px;
 
         width: 26px;
         height: 26px;
     }
 
-    header .search form .input
-    {
+    header .search form .input {
         font-size: 20px;
 
         height: 58px;
@@ -271,34 +241,29 @@
         border-width: 2px;
     }
 
-    header .search form .close_btn
-    {
+    header .search form .close_btn {
         right: 20px;
 
         width: 26px;
         height: 26px;
     }
 
-    header .search form .close_btn svg
-    {
+    header .search form .close_btn svg {
         width: 20px;
         height: 20px;
     }
 
 
 
-    header.fixed
-    {
+    header.fixed {
         padding: 20px 0;
     }
 
-    header.fixed .logo .name
-    {
+    header.fixed .logo .name {
         font-size: 28px;
     }
 
-    header.fixed .menu
-    {
+    header.fixed .menu {
         display: none;
     }
 
@@ -307,27 +272,23 @@
     /*---------------
         Page head
     ---------------*/
-    .page_head
-    {
+    .page_head {
         margin-bottom: 40px;
         padding-top: 0;
     }
 
-    .page_head.border
-    {
+    .page_head.border {
         margin-bottom: 48px;
         padding-bottom: 23px;
     }
 
 
-    .page_title
-    {
+    .page_title {
         font-size: 40px;
     }
 
 
-    .page_desc
-    {
+    .page_desc {
         font-size: 22px;
         line-height: 140%;
 
@@ -335,8 +296,7 @@
     }
 
 
-    .page_head .link a
-    {
+    .page_head .link a {
         font-size: 17px;
         line-height: 21px;
 
@@ -344,8 +304,7 @@
     }
 
 
-    .page_head .links a
-    {
+    .page_head .links a {
         padding: 8px 20px;
     }
 
@@ -354,20 +313,17 @@
     /*----------------
         Block head
     ----------------*/
-    .block_head
-    {
+    .block_head {
         margin-bottom: 48px;
     }
 
-    .block_head.pad_r
-    {
+    .block_head.pad_r {
         margin-bottom: 40px;
         padding-right: 180px;
     }
 
 
-    .block_head .title sup
-    {
+    .block_head .title sup {
         font-size: 18px;
         line-height: 22px;
     }
@@ -377,34 +333,29 @@
     /*------------------
         Form elements
     ------------------*/
-    .form
-    {
+    .form {
         --form_border_radius: 40px;
     }
 
 
-    .form .columns
-    {
+    .form .columns {
         --form_columns_offset: 32px;
     }
 
 
-    .form .line
-    {
+    .form .line {
         margin-bottom: 28px;
     }
 
 
-    .form .label
-    {
+    .form .label {
         font-size: 16px;
 
         padding: 0 24px;
     }
 
 
-    .form .input
-    {
+    .form .input {
         font-size: 18px;
 
         height: 60px;
@@ -413,8 +364,7 @@
     }
 
 
-    .form .nice-select .current
-    {
+    .form .nice-select .current {
         font-size: 18px;
         line-height: 56px;
 
@@ -423,13 +373,11 @@
         padding-left: 22px;
     }
 
-    .form .nice-select .list .list_item
-    {
+    .form .nice-select .list .list_item {
         font-size: 18px;
     }
 
-    .form .nice-select + .arr
-    {
+    .form .nice-select+.arr {
         right: 24px;
 
         width: 24px;
@@ -437,28 +385,24 @@
     }
 
 
-    .form .agree label
-    {
+    .form .agree label {
         font-size: 18px;
 
         padding-left: 44px;
     }
 
-    .form .agree label .check
-    {
+    .form .agree label .check {
         width: 30px;
         height: 30px;
     }
 
-    .form .agree label .check .icon
-    {
+    .form .agree label .check .icon {
         width: 20px;
         height: 14px;
     }
 
 
-    .form .submit_btn
-    {
+    .form .submit_btn {
         width: 260px;
         height: 60px;
 
@@ -466,14 +410,12 @@
     }
 
 
-    .form .bottom
-    {
+    .form .bottom {
         margin-top: 12px;
         padding-top: 30px;
     }
 
-    .form .bottom .agree
-    {
+    .form .bottom .agree {
         width: calc(100% - 300px);
     }
 
@@ -482,77 +424,66 @@
     /*----------------
         Typography
     ----------------*/
-    .text_block > *
-    {
+    .text_block>* {
         margin-bottom: 28px;
     }
 
 
-    .text_block .big
-    {
+    .text_block .big {
         font-size: 20px;
     }
 
 
-    .text_block h2
-    {
+    .text_block h2 {
         font-size: 36px;
 
         margin-bottom: 24px;
     }
 
-    .text_block h3
-    {
+    .text_block h3 {
         font-size: 32px;
 
         margin-bottom: 24px;
     }
 
-    .text_block h4
-    {
+    .text_block h4 {
         font-size: 26px;
 
         margin-bottom: 24px;
     }
 
-    .text_block h5
-    {
+    .text_block h5 {
         font-size: 24px;
 
         margin-bottom: 24px;
     }
 
 
-    .text_block * + h2,
-    .text_block * + h3,
-    .text_block * + h4,
-    .text_block * + h5
-    {
+    .text_block *+h2,
+    .text_block *+h3,
+    .text_block *+h4,
+    .text_block *+h5 {
         margin-top: 60px;
     }
 
 
-    .text_block .cols .col
-    {
+    .text_block .cols .col {
         width: calc(50% - 24px);
     }
 
 
-    .text_block .table_wrap
-    {
+    .text_block .table_wrap {
         margin-top: 40px;
         margin-bottom: 40px;
     }
 
     .text_block table th,
-    .text_block table td
-    {
+    .text_block table td {
         padding: 16px 20px;
     }
 
 
-    .text_block .message
-    {
+    .text_block .message {
         margin-top: 40px;
         margin-bottom: 40px;
         padding: 40px;
@@ -561,8 +492,7 @@
     }
 
     .text_block .message .title,
-    .text_block .message .text
-    {
+    .text_block .message .text {
         font-size: 22px;
     }
 
@@ -571,83 +501,71 @@
     /*-------------------
         First section
     -------------------*/
-    .first_section
-    {
+    .first_section {
         margin-bottom: 48px;
     }
 
 
-    .first_section .status
-    {
+    .first_section .status {
         font-size: 32px;
 
         padding-top: 20px;
     }
 
-    .first_section .status .point
-    {
+    .first_section .status .point {
         width: 12px;
         height: 12px;
         margin-left: 6px;
     }
 
 
-    .first_section .desc
-    {
+    .first_section .desc {
         font-size: 20px;
 
         margin-top: 8px;
     }
 
 
-    .first_section .stats
-    {
+    .first_section .stats {
         width: 100%;
         margin-top: 32px;
     }
 
 
-    .first_section .stats .title
-    {
+    .first_section .stats .title {
         font-size: 24px;
 
         margin-bottom: 24px;
     }
 
 
-    .first_section .stats .item .icon
-    {
+    .first_section .stats .item .icon {
         font-size: 16px;
         line-height: 20px;
     }
 
-    .first_section .stats .item .icon img
-    {
+    .first_section .stats .item .icon img {
         width: 38px;
         height: 38px;
         margin-right: 12px;
     }
 
-    .first_section .stats .item .icon div
-    {
+    .first_section .stats .item .icon div {
         width: calc(100% - 50px);
     }
 
 
-    .first_section .stats .row .label
-    {
+    .first_section .stats .row .label {
         font-size: 16px;
         line-height: 22px;
     }
 
 
-    .first_section .stats .item .per_day
-    {
+    .first_section .stats .item .per_day {
         font-size: 40px;
     }
 
-    .first_section .stats .item .total
-    {
+    .first_section .stats .item .total {
         font-size: 20px;
     }
 
@@ -656,21 +574,18 @@
     /*-----------------
         Site search
     -----------------*/
-    .site_search
-    {
+    .site_search {
         margin-bottom: 48px;
     }
 
 
-    .site_search form .icon
-    {
+    .site_search form .icon {
         width: 28px;
         height: 28px;
     }
 
 
-    .site_search form .input
-    {
+    .site_search form .input {
         font-size: 22px;
 
         height: 72px;
@@ -682,35 +597,30 @@
     /*--------------
         Medicine
     --------------*/
-    .medicine
-    {
+    .medicine {
         margin-bottom: 80px;
     }
 
 
-    .medicine .images > *
-    {
+    .medicine .images>* {
         height: 240px;
         padding: 24px;
 
         border-radius: 40px;
     }
 
-    .medicine .images > * + *
-    {
+    .medicine .images>*+* {
         padding: 0;
     }
 
 
-    .medicine .row
-    {
+    .medicine .row {
         margin-top: 28px;
         margin-left: 0;
     }
 
 
-    .medicine .item
-    {
+    .medicine .item {
         font-size: 16px;
         line-height: 22px;
 
@@ -718,21 +628,18 @@
         margin-left: 0;
     }
 
-    .medicine .item + .item
-    {
+    .medicine .item+.item {
         margin-top: 28px;
     }
 
-    .medicine .item .title
-    {
+    .medicine .item .title {
         font-size: 24px;
 
         margin-bottom: 16px;
     }
 
 
-    .medicine .all_link
-    {
+    .medicine .all_link {
         width: 100%;
         height: 60px;
         margin-top: 40px;
@@ -746,20 +653,17 @@
     /*--------------
         Articles
     --------------*/
-    .articles
-    {
+    .articles {
         margin-bottom: 92px;
     }
 
 
-    .articles .categories
-    {
+    .articles .categories {
         margin-bottom: 24px;
     }
 
 
-    .articles .categories a
-    {
+    .articles .categories a {
         font-size: 16px;
 
         padding: 8px 16px 10px;
@@ -768,61 +672,52 @@
     }
 
 
-    .articles .row
-    {
+    .articles .row {
         margin-bottom: -40px;
     }
 
-    .articles .row > *
-    {
+    .articles .row>* {
         width: calc(50% - 24px);
         margin-bottom: 40px;
     }
 
-    .articles .row > *.big
-    {
+    .articles .row>*.big {
         width: calc(100% - 24px);
     }
 
 
     .articles .article .sticker,
-    .articles .article.big .sticker
-    {
+    .articles .article.big .sticker {
         width: 152px;
         height: 92px;
 
         border-radius: 0 40px;
     }
 
-    .articles .article .sticker img
-    {
+    .articles .article .sticker img {
         zoom: .8;
     }
 
 
-    .articles .article .thumb
-    {
+    .articles .article .thumb {
         margin-bottom: 24px;
 
         border-radius: 40px;
     }
 
 
-    .articles .article .icon
-    {
+    .articles .article .icon {
         width: 104px;
         height: 104px;
     }
 
-    .articles .article .icon svg
-    {
+    .articles .article .icon svg {
         width: 36px;
         height: 38px;
     }
 
 
-    .articles .article .date
-    {
+    .articles .article .date {
         width: 184px;
         padding: 4px 16px 12px 48px;
 
@@ -830,18 +725,15 @@
     }
 
 
-    .articles .article .name
-    {
+    .articles .article .name {
         padding: 0 24px;
     }
 
-    .articles .article.big .name
-    {
+    .articles .article.big .name {
         font-size: 22px;
     }
 
-    .articles .article .thumb .name
-    {
+    .articles .article .thumb .name {
         font-size: 32px;
 
         width: 432px;
@@ -850,50 +742,43 @@
 
 
 
-    .articles .poll
-    {
+    .articles .poll {
         padding: 40px;
 
         border-radius: 40px;
     }
 
 
-    .articles .poll .pre_title
-    {
+    .articles .poll .pre_title {
         line-height: 22px;
 
         margin-bottom: 20px;
     }
 
 
-    .articles .poll .question
-    {
+    .articles .poll .question {
         font-size: 28px;
 
         margin-bottom: 28px;
     }
 
 
-    .articles .poll .answers
-    {
+    .articles .poll .answers {
         margin-left: -24px;
     }
 
-    .articles .poll .answers > *
-    {
+    .articles .poll .answers>* {
         width: calc(33.333% - 24px);
         margin-left: 24px;
     }
 
 
-    .articles .poll .answers label
-    {
+    .articles .poll .answers label {
         min-height: 30px;
         padding-left: 44px;
     }
 
-    .articles .poll .answers label .check
-    {
+    .articles .poll .answers label .check {
         width: 30px;
         height: 30px;
 
@@ -901,17 +786,30 @@
     }
 
 
-    .articles .poll .submit_btn
-    {
+    .articles .poll .submit_btn {
         line-height: 22px;
 
         padding: 16px 48px;
     }
 
 
+    .articles .poll .success {
+        font-size: 28px;
+    }
 
-    .articles .all_link div
-    {
+    .articles .poll .success .icon {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 40px;
+    }
+
+    .articles .poll .success .icon img {
+        height: 44px;
+    }
+
+
+
+    .articles .all_link div {
         padding-bottom: calc(100% - 2px);
     }
 
@@ -920,67 +818,57 @@
     /*-----------
         Polls
     -----------*/
-    .polls.margin
-    {
+    .polls.margin {
         margin-bottom: 80px;
     }
 
 
-    .polls .row
-    {
+    .polls .row {
         margin-left: 0;
     }
 
-    .polls .row > *,
-    .polls .row > *.big_w
-    {
+    .polls .row>*,
+    .polls .row>*.big_w {
         width: 100%;
         margin-bottom: 24px;
         margin-left: 0;
     }
 
 
-    .polls .item
-    {
+    .polls .item {
         padding: 28px 28px 32px;
 
         border-radius: 40px;
     }
 
 
-    .polls .item .block_title
-    {
+    .polls .item .block_title {
         font-size: 32px;
     }
 
 
-    .polls .item .pre_title
-    {
+    .polls .item .pre_title {
         line-height: 22px;
 
         margin-bottom: 20px;
     }
 
 
-    .polls .ver_bar
-    {
+    .polls .ver_bar {
         margin-left: -16px;
     }
 
-    .polls .ver_bar > *
-    {
+    .polls .ver_bar>* {
         width: calc(25% - 16px);
         margin-left: 16px;
     }
 
 
-    .polls .ver_bar .value
-    {
+    .polls .ver_bar .value {
         position: relative;
     }
 
-    .polls .ver_bar .value span
-    {
+    .polls .ver_bar .value span {
         color: #fff;
         font-size: 40px;
         line-height: 54px;
@@ -994,29 +882,24 @@
     }
 
 
-    .polls .hor_bar
-    {
+    .polls .hor_bar {
         margin-top: 32px;
     }
 
-    .polls .hor_bar .progress
-    {
+    .polls .hor_bar .progress {
         width: calc(100% - 200px);
     }
 
-    .polls .hor_bar .bar .value
-    {
+    .polls .hor_bar .bar .value {
         width: 40px;
     }
 
-    .polls .hor_bar .bar .label
-    {
+    .polls .hor_bar .bar .label {
         width: 120px;
     }
 
 
-    .polls .image
-    {
+    .polls .image {
         margin-top: 32px;
     }
 
@@ -1025,14 +908,12 @@
     /*-------------
         Therapy
     -------------*/
-    .therapy .list > * + *
-    {
+    .therapy .list>*+* {
         margin-top: 24px;
     }
 
 
-    .therapy .item
-    {
+    .therapy .item {
         padding: 32px;
 
         text-align: center;
@@ -1041,36 +922,30 @@
     }
 
 
-    .therapy .item .thumb
-    {
+    .therapy .item .thumb {
         margin: 0 auto 32px;
     }
 
-    .therapy .item .thumb + *
-    {
+    .therapy .item .thumb+* {
         width: 100%;
     }
 
 
-    .therapy .item .name
-    {
+    .therapy .item .name {
         font-size: 32px;
     }
 
 
-    .therapy .item .desc
-    {
+    .therapy .item .desc {
         font-size: 17px;
     }
 
 
-    .therapy .item .link
-    {
+    .therapy .item .link {
         margin-top: 24px;
     }
 
-    .therapy .item .link a
-    {
+    .therapy .item .link a {
         width: 220px;
         padding: 16px 20px;
 
@@ -1082,14 +957,12 @@
     /*-----------------
         Search info
     -----------------*/
-    .search_info form
-    {
+    .search_info form {
         margin-bottom: 40px;
     }
 
 
-    .search_info form .icon
-    {
+    .search_info form .icon {
         bottom: 28px;
 
         width: 28px;
@@ -1097,8 +970,7 @@
     }
 
 
-    .search_info form .input
-    {
+    .search_info form .input {
         font-size: 28px;
 
         height: 64px;
@@ -1108,25 +980,21 @@
 
 
 
-    .search_info .list > * + *
-    {
+    .search_info .list>*+* {
         margin-top: 40px;
     }
 
 
-    .search_info .list .item
-    {
+    .search_info .list .item {
         padding-bottom: 40px;
     }
 
 
-    .search_info .list .item .name
-    {
+    .search_info .list .item .name {
         font-size: 22px;
     }
 
-    .search_info .list .item .desc
-    {
+    .search_info .list .item .desc {
         margin-top: 16px;
     }
 
@@ -1135,14 +1003,12 @@
     /*----------
         Tags
     ----------*/
-    .tags
-    {
+    .tags {
         margin-bottom: 48px;
     }
 
 
-    .tags a
-    {
+    .tags a {
         padding: 9px 20px 11px;
 
         border-radius: 40px;
@@ -1153,39 +1019,33 @@
     /*------------
         Events
     ------------*/
-    .events.border
-    {
+    .events.border {
         margin-bottom: 60px;
         padding: 0 0 59px;
     }
 
 
 
-    .events .calendar
-    {
+    .events .calendar {
         width: 100%;
     }
 
-    .events .calendar .months > * + *
-    {
+    .events .calendar .months>*+* {
         margin-top: 20px;
     }
 
-    .events .calendar #calendar
-    {
+    .events .calendar #calendar {
         width: calc(100% - 120px);
     }
 
 
-    .events .top_event
-    {
+    .events .top_event {
         width: 100%;
         margin-top: 40px;
     }
 
 
-    .events .top_event .thumb
-    {
+    .events .top_event .thumb {
         width: 300px;
         height: 300px;
         margin-bottom: 0;
@@ -1193,37 +1053,31 @@
         border-radius: 40px;
     }
 
-    .events .top_event .thumb + *
-    {
+    .events .top_event .thumb+* {
         width: calc(100% - 332px);
     }
 
 
-    .events .top_event .date
-    {
+    .events .top_event .date {
         margin-bottom: 8px;
     }
 
-    .events .top_event .time
-    {
+    .events .top_event .time {
         font-size: 22px;
         line-height: 26px;
     }
 
-    .events .top_event .name
-    {
+    .events .top_event .name {
         font-size: 22px;
         line-height: 28px;
     }
 
-    .events .top_event .speackers
-    {
+    .events .top_event .speackers {
         margin-top: 24px;
     }
 
 
-    .events .top_event .btn
-    {
+    .events .top_event .btn {
         width: 200px;
         margin-top: 24px;
         padding: 12px 16px;
@@ -1237,14 +1091,12 @@
         Article info
     ------------------*/
     .article_info,
-    .article_info.big_m
-    {
+    .article_info.big_m {
         margin-bottom: 72px;
     }
 
 
-    .article_info .image
-    {
+    .article_info .image {
         height: 272px;
         margin-bottom: 40px;
 
@@ -1252,86 +1104,72 @@
     }
 
 
-    .article_info .article_title
-    {
+    .article_info .article_title {
         font-size: 40px;
     }
 
 
-    .article_info .date_time
-    {
+    .article_info .date_time {
         margin-top: 24px;
     }
 
 
-    .article_info .time
-    {
+    .article_info .time {
         font-size: 20px;
         line-height: 26px;
     }
 
 
-    .article_info .date
-    {
+    .article_info .date {
         margin-top: 24px;
         padding: 5px 14px 6px;
     }
 
-    .article_info .date_time .date
-    {
+    .article_info .date_time .date {
         margin-left: 28px;
     }
 
 
-    .article_info .lecturer
-    {
+    .article_info .lecturer {
         margin-top: 40px;
     }
 
-    .article_info .lecturer .title
-    {
+    .article_info .lecturer .title {
         font-size: 22px;
 
         margin-bottom: 20px;
     }
 
 
-    .article_info .person .thumb
-    {
+    .article_info .person .thumb {
         width: 100px;
         height: 100px;
     }
 
-    .article_info .person .thumb + *
-    {
+    .article_info .person .thumb+* {
         width: calc(100% - 124px);
     }
 
 
-    .article_info .person .name
-    {
+    .article_info .person .name {
         font-size: 18px;
     }
 
-    .article_info .person .desc
-    {
+    .article_info .person .desc {
         margin-top: 12px;
     }
 
 
-    .article_info .text_block
-    {
+    .article_info .text_block {
         margin-top: 40px;
     }
 
-    .article_info .lecturer + .text_block
-    {
+    .article_info .lecturer+.text_block {
         margin-top: 40px;
     }
 
 
-    .article_info .participate_btn
-    {
+    .article_info .participate_btn {
         margin-top: 40px;
         padding: 18px 38px;
 
@@ -1339,8 +1177,7 @@
     }
 
 
-    .article_info .lock .btn
-    {
+    .article_info .lock .btn {
         margin-top: 32px;
         padding: 19px 43px;
     }
@@ -1350,8 +1187,7 @@
     /*--------------------
         Event register
     --------------------*/
-    .event_register
-    {
+    .event_register {
         width: 100%;
         margin: 80px 0 0;
         padding: 40px 32px;
@@ -1360,8 +1196,7 @@
     }
 
 
-    .event_register .title
-    {
+    .event_register .title {
         font-size: 32px;
 
         margin-bottom: 32px;
@@ -1372,21 +1207,18 @@
     /*----------------
         Error info
     ----------------*/
-    .error_info
-    {
+    .error_info {
         padding: 120px 0 280px;
     }
 
 
-    .error_info .code
-    {
+    .error_info .code {
         font-size: 200px;
     }
 
 
     .error_info .desc,
-    .error_info .link
-    {
+    .error_info .link {
         font-size: 20px;
     }
 
@@ -1395,14 +1227,12 @@
     /*---------------
         Esperavir
     ---------------*/
-    .esperavir .head
-    {
+    .esperavir .head {
         margin-bottom: 80px;
     }
 
 
-    .esperavir .head .data
-    {
+    .esperavir .head .data {
         padding: 60px;
 
         text-align: center;
@@ -1411,52 +1241,44 @@
     }
 
 
-    .esperavir .head .info
-    {
+    .esperavir .head .info {
         width: 100%;
     }
 
 
-    .esperavir .head .title
-    {
+    .esperavir .head .title {
         font-size: 26px;
     }
 
 
-    .esperavir .head .link
-    {
+    .esperavir .head .link {
         margin-top: 32px;
     }
 
-    .esperavir .head .link a
-    {
+    .esperavir .head .link a {
         width: 232px;
         padding: 18px;
     }
 
 
-    .esperavir .head img
-    {
+    .esperavir .head img {
         margin: 40px auto 0;
     }
 
 
 
-    .esperavir .pluses
-    {
+    .esperavir .pluses {
         margin-bottom: 80px;
     }
 
 
-    .esperavir .pluses .row
-    {
+    .esperavir .pluses .row {
         margin-bottom: -40px;
         margin-left: 0;
     }
 
 
-    .esperavir .pluses .item
-    {
+    .esperavir .pluses .item {
         font-size: 17px;
 
         display: flex;
@@ -1473,52 +1295,44 @@
     }
 
 
-    .esperavir .pluses .icon
-    {
+    .esperavir .pluses .icon {
         width: 60px;
         height: 60px;
         margin: 0;
     }
 
-    .esperavir .pluses .icon + *
-    {
+    .esperavir .pluses .icon+* {
         width: calc(100% - 88px);
 
         align-self: center;
     }
 
 
-    .esperavir .pluses br
-    {
+    .esperavir .pluses br {
         display: none;
     }
 
 
 
-    .esperavir .mechanism .notice
-    {
+    .esperavir .mechanism .notice {
         margin-bottom: 48px;
     }
 
 
-    .esperavir .mechanism .notice .icon
-    {
+    .esperavir .mechanism .notice .icon {
         width: 32px;
         height: 32px;
     }
 
-    .esperavir .mechanism .notice .icon + *
-    {
+    .esperavir .mechanism .notice .icon+* {
         width: calc(100% - 56px);
     }
 
-    .esperavir .mechanism .notice .title
-    {
+    .esperavir .mechanism .notice .title {
         font-size: 17px;
     }
 
-    .esperavir .mechanism .notice .desc
-    {
+    .esperavir .mechanism .notice .desc {
         font-size: 13px;
         line-height: 130%;
 
@@ -1527,33 +1341,28 @@
 
 
 
-    .esperavir .mechanism .image
-    {
+    .esperavir .mechanism .image {
         margin-right: 40px;
         margin-left: 0;
     }
 
 
-    .esperavir .mechanism .image img
-    {
+    .esperavir .mechanism .image img {
         width: 172px;
     }
 
 
-    .esperavir .mechanism .data
-    {
+    .esperavir .mechanism .data {
         width: calc(100% - 220px);
     }
 
 
-    .esperavir .mechanism .data .block_head
-    {
+    .esperavir .mechanism .data .block_head {
         margin-bottom: 40px;
     }
 
 
-    .esperavir .mechanism .item
-    {
+    .esperavir .mechanism .item {
         font-size: 17px;
         line-height: 130%;
 
@@ -1563,13 +1372,11 @@
     }
 
 
-    .esperavir .mechanism .item + .item
-    {
+    .esperavir .mechanism .item+.item {
         margin-top: 32px;
     }
 
-    .esperavir .mechanism .item + .item:before
-    {
+    .esperavir .mechanism .item+.item:before {
         top: -40px;
         left: 88px;
 
@@ -1579,58 +1386,49 @@
 
 
 
-    .esperavir .indications
-    {
+    .esperavir .indications {
         margin-bottom: 80px;
         padding: 72px 0 80px;
     }
 
 
-    .esperavir .indications .block_head
-    {
+    .esperavir .indications .block_head {
         margin-bottom: 40px;
     }
 
 
-    .esperavir .indications .desc
-    {
+    .esperavir .indications .desc {
         font-size: 18px;
     }
 
 
-    .esperavir .indications .items
-    {
+    .esperavir .indications .items {
         font-size: 18px;
 
         margin-top: 28px;
     }
 
-    .esperavir .indications .item + .item
-    {
+    .esperavir .indications .item+.item {
         margin-top: 24px;
     }
 
 
-    .esperavir .indications .item .icon
-    {
+    .esperavir .indications .item .icon {
         width: 60px;
         height: 60px;
     }
 
-    .esperavir .indications .item .icon svg
-    {
+    .esperavir .indications .item .icon svg {
         width: 32px;
         height: 32px;
     }
 
-    .esperavir .indications .item .icon + *
-    {
+    .esperavir .indications .item .icon+* {
         width: calc(100% - 88px);
     }
 
 
-    .esperavir .indications .notice
-    {
+    .esperavir .indications .notice {
         font-size: 18px;
 
         width: 100%;
@@ -1640,8 +1438,7 @@
         border-radius: 10px;
     }
 
-    .esperavir .indications .notice .icon
-    {
+    .esperavir .indications .notice .icon {
         width: 40px;
         height: 40px;
         margin-bottom: 24px;
@@ -1649,19 +1446,16 @@
 
 
 
-    .esperavir .mode_app .block_head
-    {
+    .esperavir .mode_app .block_head {
         margin-bottom: 40px;
     }
 
-    .esperavir .mode_app .block_head .link a
-    {
+    .esperavir .mode_app .block_head .link a {
         padding: 10px 30px;
     }
 
 
-    .esperavir .mode_app .items
-    {
+    .esperavir .mode_app .items {
         font-size: 18px;
         line-height: 130%;
 
@@ -1669,33 +1463,28 @@
     }
 
 
-    .esperavir .mode_app .item + .item
-    {
+    .esperavir .mode_app .item+.item {
         margin-top: 20px;
     }
 
 
-    .esperavir .mode_app .items .icon
-    {
+    .esperavir .mode_app .items .icon {
         width: 60px;
         height: 60px;
     }
 
-    .esperavir .mode_app .items .icon + *
-    {
+    .esperavir .mode_app .items .icon+* {
         width: calc(100% - 88px);
     }
 
 
-    .esperavir .mode_app .img
-    {
+    .esperavir .mode_app .img {
         margin-top: 40px;
         margin-left: 0;
     }
 
 
-    .esperavir .mode_app .exp
-    {
+    .esperavir .mode_app .exp {
         font-size: 24px;
 
         margin-top: 48px;
@@ -1706,14 +1495,12 @@
     /*-----------------
         Favipiravir
     -----------------*/
-    .favipiravir .mechanisn
-    {
+    .favipiravir .mechanisn {
         padding: 60px 0;
     }
 
 
-    .favipiravir .mechanisn .title
-    {
+    .favipiravir .mechanisn .title {
         font-size: 24px;
         line-height: 32px;
 
@@ -1725,16 +1512,14 @@
     }
 
 
-    .favipiravir .mechanisn .item
-    {
+    .favipiravir .mechanisn .item {
         font-size: 18px;
         line-height: 26px;
 
         padding: 0;
     }
 
-    .favipiravir .mechanisn .item .number
-    {
+    .favipiravir .mechanisn .item .number {
         font-size: 48px;
         line-height: 72px;
 
@@ -1745,28 +1530,24 @@
 
 
 
-    .favipiravir .about
-    {
+    .favipiravir .about {
         margin-bottom: 80px;
     }
 
 
-    .favipiravir .about .data
-    {
+    .favipiravir .about .data {
         font-size: 22px;
         line-height: 140%;
 
         width: 100%;
     }
 
-    .favipiravir .about .data > * + *
-    {
+    .favipiravir .about .data>*+* {
         margin-top: 32px;
     }
 
 
-    .favipiravir .about img
-    {
+    .favipiravir .about img {
         width: auto;
         max-width: 100%;
         margin-top: 40px;
@@ -1775,8 +1556,7 @@
 
 
 
-    .favipiravir .efficiency
-    {
+    .favipiravir .efficiency {
         position: relative;
 
         margin-bottom: 80px;
@@ -1784,14 +1564,12 @@
     }
 
 
-    .favipiravir .efficiency .data
-    {
+    .favipiravir .efficiency .data {
         width: 100%;
     }
 
 
-    .favipiravir .efficiency .title
-    {
+    .favipiravir .efficiency .title {
         font-size: 24px;
         line-height: 140%;
 
@@ -1800,34 +1578,28 @@
     }
 
 
-    .favipiravir .efficiency .items
-    {
+    .favipiravir .efficiency .items {
         font-size: 17px;
     }
 
-    .favipiravir .efficiency .items br
-    {
+    .favipiravir .efficiency .items br {
         display: none;
     }
 
 
-    .favipiravir .efficiency .col
-    {
+    .favipiravir .efficiency .col {
         width: calc(50% - 24px);
     }
 
-    .favipiravir .efficiency .col > * + *
-    {
+    .favipiravir .efficiency .col>*+* {
         margin-top: 12px;
     }
 
-    .favipiravir .efficiency .col > *
-    {
+    .favipiravir .efficiency .col>* {
         padding-left: 28px;
     }
 
-    .favipiravir .efficiency .col > *:before
-    {
+    .favipiravir .efficiency .col>*:before {
         top: 4px;
 
         width: 12px;
@@ -1835,8 +1607,7 @@
     }
 
 
-    .favipiravir .efficiency img
-    {
+    .favipiravir .efficiency img {
         position: absolute;
         top: 80px;
         right: 24px;
@@ -1846,8 +1617,7 @@
     }
 
 
-    .favipiravir .efficiency .text
-    {
+    .favipiravir .efficiency .text {
         font-size: 18px;
         line-height: 140%;
 
@@ -1859,14 +1629,12 @@
 
 
 
-    .favipiravir .covid19 .block_head
-    {
+    .favipiravir .covid19 .block_head {
         margin-bottom: 48px;
     }
 
 
-    .favipiravir .covid19 .text
-    {
+    .favipiravir .covid19 .text {
         font-size: 22px;
         line-height: 140%;
 
@@ -1874,8 +1642,7 @@
     }
 
 
-    .favipiravir .covid19 img
-    {
+    .favipiravir .covid19 img {
         width: auto;
         margin-top: 40px;
         margin-left: 0;
@@ -1883,15 +1650,13 @@
 
 
 
-    .favipiravir .compare
-    {
+    .favipiravir .compare {
         margin-bottom: 80px;
         padding: 80px 0;
     }
 
 
-    .favipiravir .compare .items
-    {
+    .favipiravir .compare .items {
         width: 100%;
         margin-top: 40px;
 
@@ -1899,8 +1664,7 @@
     }
 
 
-    .favipiravir .compare .item
-    {
+    .favipiravir .compare .item {
         font-size: 16px;
         line-height: 140%;
 
@@ -1908,8 +1672,7 @@
     }
 
 
-    .favipiravir .compare .item .thumb
-    {
+    .favipiravir .compare .item .thumb {
         height: 300px;
         margin-bottom: 24px;
         padding: 24px;
@@ -1918,8 +1681,7 @@
     }
 
 
-    .favipiravir .compare .text
-    {
+    .favipiravir .compare .text {
         font-size: 22px;
         line-height: 140%;
 
@@ -1929,22 +1691,19 @@
 
 
 
-    .favipiravir .torelability .block_title
-    {
+    .favipiravir .torelability .block_title {
         font-size: 28px;
 
         margin-bottom: 48px;
     }
 
 
-    .favipiravir .torelability .col_left
-    {
+    .favipiravir .torelability .col_left {
         width: 100%;
     }
 
 
-    .favipiravir .torelability .col_left .text
-    {
+    .favipiravir .torelability .col_left .text {
         font-size: 17px;
         line-height: 140%;
 
@@ -1953,8 +1712,7 @@
         border-radius: 28px;
     }
 
-    .favipiravir .torelability .col_left .text:after
-    {
+    .favipiravir .torelability .col_left .text:after {
         bottom: -12px;
 
         width: 24px;
@@ -1962,21 +1720,18 @@
     }
 
 
-    .favipiravir .torelability .col_left img
-    {
+    .favipiravir .torelability .col_left img {
         margin-top: 32px;
     }
 
 
-    .favipiravir .torelability .col_right
-    {
+    .favipiravir .torelability .col_right {
         width: 100%;
         margin-top: 40px;
     }
 
 
-    .favipiravir .torelability .col_right .text
-    {
+    .favipiravir .torelability .col_right .text {
         font-size: 21px;
         line-height: 140%;
 
@@ -1984,8 +1739,7 @@
     }
 
 
-    .favipiravir .torelability .info
-    {
+    .favipiravir .torelability .info {
         font-size: 17px;
         line-height: 140%;
 
@@ -1996,62 +1750,53 @@
     }
 
 
-    .favipiravir .torelability .info .exp
-    {
+    .favipiravir .torelability .info .exp {
         margin-top: 20px;
     }
 
 
 
-    .favipiravir .research .block_title
-    {
+    .favipiravir .research .block_title {
         font-size: 28px;
 
         margin-bottom: 48px;
     }
 
 
-    .favipiravir .research .col_left
-    {
+    .favipiravir .research .col_left {
         width: 100%;
     }
 
 
-    .favipiravir .research .col_left .text
-    {
+    .favipiravir .research .col_left .text {
         font-size: 18px;
         line-height: 140%;
     }
 
-    .favipiravir .research .col_left .text > * + *
-    {
+    .favipiravir .research .col_left .text>*+* {
         margin-top: 24px;
     }
 
 
-    .favipiravir .research .col_right
-    {
+    .favipiravir .research .col_right {
         width: 100%;
         margin-top: 48px;
     }
 
 
-    .favipiravir .research .col_right .text
-    {
+    .favipiravir .research .col_right .text {
         font-size: 18px;
         line-height: 140%;
 
         margin-top: 40px;
     }
 
-    .favipiravir .research .col_right .text > * + *
-    {
+    .favipiravir .research .col_right .text>*+* {
         margin-top: 8px;
     }
 
 
-    .favipiravir .research .message
-    {
+    .favipiravir .research .message {
         font-size: 24px;
         line-height: 140%;
 
@@ -2063,61 +1808,52 @@
 
 
 
-    .favipiravir .performance
-    {
+    .favipiravir .performance {
         margin-bottom: 80px;
     }
 
 
-    .favipiravir .performance .block_head
-    {
+    .favipiravir .performance .block_head {
         margin-bottom: 60px;
     }
 
 
-    .favipiravir .performance .data
-    {
+    .favipiravir .performance .data {
         padding: 40px;
 
         border-radius: 32px;
     }
 
 
-    .favipiravir .performance .info
-    {
+    .favipiravir .performance .info {
         width: 100%;
     }
 
 
-    .favipiravir .performance .info .title
-    {
+    .favipiravir .performance .info .title {
         font-size: 20px;
         line-height: 140%;
     }
 
-    .favipiravir .performance .info .title sup
-    {
+    .favipiravir .performance .info .title sup {
         font-size: 12px;
         line-height: 20px;
     }
 
 
-    .favipiravir .performance .info .desc
-    {
+    .favipiravir .performance .info .desc {
         font-size: 18px;
         line-height: 140%;
 
         margin-top: 28px;
     }
 
-    .favipiravir .performance .info .desc > * + *
-    {
+    .favipiravir .performance .info .desc>*+* {
         margin-top: 10px;
     }
 
 
-    .favipiravir .performance .image
-    {
+    .favipiravir .performance .image {
         width: 100%;
         height: 340px;
         margin-top: 40px;
@@ -2129,14 +1865,12 @@
 
 
 
-    .favipiravir .therapy
-    {
+    .favipiravir .therapy {
         margin-bottom: 60px;
     }
 
 
-    .favipiravir .therapy .title
-    {
+    .favipiravir .therapy .title {
         font-size: 24px;
         line-height: 140%;
 
@@ -2144,8 +1878,7 @@
     }
 
 
-    .favipiravir .therapy .exp
-    {
+    .favipiravir .therapy .exp {
         font-size: 24px;
 
         margin-top: 40px;
@@ -2156,8 +1889,7 @@
     /*---------------
         Areplivir
     ---------------*/
-    .areplivir .head
-    {
+    .areplivir .head {
         margin-bottom: 80px;
         padding: 60px 48px;
 
@@ -2165,95 +1897,81 @@
     }
 
 
-    .areplivir .head .title
-    {
+    .areplivir .head .title {
         font-size: 40px;
 
         margin-bottom: 28px;
     }
 
 
-    .areplivir .head .desc
-    {
+    .areplivir .head .desc {
         font-size: 20px;
     }
 
 
-    .areplivir .head .link
-    {
+    .areplivir .head .link {
         margin-top: 28px;
     }
 
-    .areplivir .head .link a
-    {
+    .areplivir .head .link a {
         width: 200px;
         padding: 14px;
     }
 
 
 
-    .areplivir .block_head
-    {
+    .areplivir .block_head {
         margin-bottom: 52px;
     }
 
 
 
-    .areplivir .symptoms
-    {
+    .areplivir .symptoms {
         margin-bottom: 80px;
     }
 
 
-    .areplivir .symptoms .row
-    {
+    .areplivir .symptoms .row {
         margin-left: 0;
     }
 
-    .areplivir .symptoms .row > *
-    {
+    .areplivir .symptoms .row>* {
         width: 100%;
         margin-left: 0;
     }
 
 
-    .areplivir .symptoms .item
-    {
+    .areplivir .symptoms .item {
         padding: 40px;
 
         border-radius: 48px;
     }
 
 
-    .areplivir .symptoms .item .title
-    {
+    .areplivir .symptoms .item .title {
         font-size: 24px;
 
         margin-bottom: 32px;
     }
 
-    .areplivir .symptoms .item .title br
-    {
+    .areplivir .symptoms .item .title br {
         display: none;
     }
 
 
-    .areplivir .symptoms li
-    {
+    .areplivir .symptoms li {
         font-size: 17px;
 
         min-height: 60px;
         padding-left: 84px;
     }
 
-    .areplivir .symptoms li + li
-    {
+    .areplivir .symptoms li+li {
         margin-top: 28px;
     }
 
 
-    .areplivir .symptoms li .number
-    {
+    .areplivir .symptoms li .number {
         font-size: 36px;
         line-height: 52px;
 
@@ -2262,8 +1980,7 @@
     }
 
 
-    .areplivir .symptoms ul
-    {
+    .areplivir .symptoms ul {
         display: flex;
 
         margin-bottom: -20px;
@@ -2274,21 +1991,18 @@
         flex-wrap: wrap;
     }
 
-    .areplivir .symptoms ul li
-    {
+    .areplivir .symptoms ul li {
         width: calc(50% - 20px);
         min-height: 92px;
         margin-bottom: 20px;
         padding-left: 112px;
     }
 
-    .areplivir .symptoms ul li + li
-    {
+    .areplivir .symptoms ul li+li {
         margin-top: 0;
     }
 
-    .areplivir .symptoms li .icon
-    {
+    .areplivir .symptoms li .icon {
         width: 92px;
         height: 92px;
         padding: 16px;
@@ -2298,15 +2012,13 @@
 
 
 
-    .areplivir .number_ill
-    {
+    .areplivir .number_ill {
         margin-bottom: 80px;
         padding: 60px 0;
     }
 
 
-    .areplivir .number_ill .title
-    {
+    .areplivir .number_ill .title {
         font-size: 32px;
         line-height: 38px;
 
@@ -2316,36 +2028,31 @@
         padding: 0;
     }
 
-    .areplivir .number_ill .title br
-    {
+    .areplivir .number_ill .title br {
         display: none;
     }
 
 
-    .areplivir .number_ill .item
-    {
+    .areplivir .number_ill .item {
         display: block;
 
         width: calc(50% - 20px);
         padding: 0;
     }
 
-    .areplivir .number_ill .item + .item
-    {
+    .areplivir .number_ill .item+.item {
         margin-left: auto;
     }
 
 
-    .areplivir .number_ill .item .label
-    {
+    .areplivir .number_ill .item .label {
         font-size: 22px;
 
         width: 100%;
         margin-bottom: 8px;
     }
 
-    .areplivir .number_ill .item .val
-    {
+    .areplivir .number_ill .item .val {
         font-size: 32px;
 
         margin-left: 0;
@@ -2356,20 +2063,17 @@
 
 
 
-    .areplivir .viruses
-    {
+    .areplivir .viruses {
         margin-bottom: 80px;
     }
 
 
-    .areplivir .viruses .block_head
-    {
+    .areplivir .viruses .block_head {
         margin-bottom: 48px;
     }
 
 
-    .areplivir .viruses .info
-    {
+    .areplivir .viruses .info {
         width: 100%;
         padding: 40px;
 
@@ -2377,26 +2081,22 @@
     }
 
 
-    .areplivir .viruses .info .title
-    {
+    .areplivir .viruses .info .title {
         font-size: 24px;
         line-height: 28px;
     }
 
-    .areplivir .viruses .info .title br
-    {
+    .areplivir .viruses .info .title br {
         display: none;
     }
 
-    .areplivir .viruses .info .desc
-    {
+    .areplivir .viruses .info .desc {
         font-size: 18px;
         line-height: 140%;
     }
 
 
-    .areplivir .viruses .data
-    {
+    .areplivir .viruses .data {
         width: 100%;
         margin-top: 24px;
         padding: 40px;
@@ -2405,13 +2105,11 @@
     }
 
 
-    .areplivir .viruses .data ul
-    {
+    .areplivir .viruses .data ul {
         width: 100%;
     }
 
-    .areplivir .viruses .data ul li
-    {
+    .areplivir .viruses .data ul li {
         font-size: 18px;
         line-height: 140%;
 
@@ -2419,22 +2117,19 @@
         padding-left: 84px;
     }
 
-    .areplivir .viruses .data ul li:before
-    {
+    .areplivir .viruses .data ul li:before {
         width: 60px;
         height: 60px;
 
         background-size: 32px auto;
     }
 
-    .areplivir .viruses .data ul li + li
-    {
+    .areplivir .viruses .data ul li+li {
         margin-top: 20px;
     }
 
 
-    .areplivir .viruses .data img
-    {
+    .areplivir .viruses .data img {
         width: auto;
         max-width: 100%;
         margin-top: 40px;
@@ -2443,27 +2138,23 @@
 
 
 
-    .areplivir .what_is
-    {
+    .areplivir .what_is {
         padding: 80px 0;
     }
 
 
-    .areplivir .what_is .block_head
-    {
+    .areplivir .what_is .block_head {
         margin-bottom: 40px;
     }
 
 
     .areplivir .what_is .col,
-    .areplivir .what_is .col + .col
-    {
+    .areplivir .what_is .col+.col {
         width: 100%;
     }
 
 
-    .areplivir .what_is .block_title
-    {
+    .areplivir .what_is .block_title {
         font-size: 22px;
         line-height: 140%;
 
@@ -2471,8 +2162,7 @@
     }
 
 
-    .areplivir .what_is .col .definition
-    {
+    .areplivir .what_is .col .definition {
         font-size: 18px;
         line-height: 140%;
 
@@ -2482,8 +2172,7 @@
     }
 
 
-    .areplivir .what_is .col .definition img
-    {
+    .areplivir .what_is .col .definition img {
         top: 64px;
         right: 24px;
 
@@ -2491,8 +2180,7 @@
     }
 
 
-    .areplivir .what_is .efficiency
-    {
+    .areplivir .what_is .efficiency {
         margin-top: 24px;
         padding: 40px;
 
@@ -2500,8 +2188,7 @@
     }
 
 
-    .areplivir .what_is .efficiency .title
-    {
+    .areplivir .what_is .efficiency .title {
         font-size: 22px;
         line-height: 140%;
 
@@ -2509,101 +2196,86 @@
     }
 
 
-    .areplivir .what_is .efficiency li
-    {
+    .areplivir .what_is .efficiency li {
         font-size: 17px;
 
         padding-left: 28px;
     }
 
-    .areplivir .what_is .efficiency li + li
-    {
+    .areplivir .what_is .efficiency li+li {
         margin-top: 12px;
     }
 
-    .areplivir .what_is .efficiency li:before
-    {
+    .areplivir .what_is .efficiency li:before {
         width: 14px;
         height: 14px;
     }
 
-    .areplivir .what_is .efficiency li br
-    {
+    .areplivir .what_is .efficiency li br {
         display: none;
     }
 
 
 
-    .areplivir .efficiency_covid
-    {
+    .areplivir .efficiency_covid {
         margin-bottom: 80px;
     }
 
 
-    .areplivir .efficiency_covid .block_head
-    {
+    .areplivir .efficiency_covid .block_head {
         margin-bottom: 48px;
     }
 
 
-    .areplivir .efficiency_covid .row
-    {
+    .areplivir .efficiency_covid .row {
         margin-bottom: -48px;
         margin-left: 0;
     }
 
-    .areplivir .efficiency_covid .row > *
-    {
+    .areplivir .efficiency_covid .row>* {
         width: 100%;
         margin-bottom: 48px;
         margin-left: 0;
     }
 
 
-    .areplivir .efficiency_covid .item .thumb
-    {
+    .areplivir .efficiency_covid .item .thumb {
         height: 280px;
         margin-bottom: 32px;
     }
 
 
-    .areplivir .efficiency_covid .item .desc
-    {
+    .areplivir .efficiency_covid .item .desc {
         font-size: 20px;
         line-height: 140%;
     }
 
 
 
-    .areplivir .safety_use
-    {
+    .areplivir .safety_use {
         margin-bottom: 80px;
     }
 
 
-    .areplivir .safety_use .data
-    {
+    .areplivir .safety_use .data {
         padding: 40px;
 
         border-radius: 48px;
     }
 
 
-    .areplivir .safety_use .block_head
-    {
+    .areplivir .safety_use .block_head {
         margin-bottom: 36px;
     }
 
 
-    .areplivir .safety_use .sub_title
-    {
+    .areplivir .safety_use .sub_title {
         font-size: 22px;
         line-height: 140%;
     }
 
 
-    .areplivir .safety_use .desc
-    {
+    .areplivir .safety_use .desc {
         font-size: 18px;
         line-height: 140%;
 
@@ -2611,22 +2283,19 @@
     }
 
 
-    .areplivir .safety_use .img
-    {
+    .areplivir .safety_use .img {
         margin-top: 40px;
         margin-left: 0;
     }
 
 
 
-    .areplivir .results
-    {
+    .areplivir .results {
         padding: 80px 0;
     }
 
 
-    .areplivir .results .block_title
-    {
+    .areplivir .results .block_title {
         font-size: 24px;
         line-height: 140%;
 
@@ -2635,22 +2304,19 @@
     }
 
 
-    .areplivir .results .row
-    {
+    .areplivir .results .row {
         margin-bottom: -24px;
         margin-left: -24px;
     }
 
-    .areplivir .results .row > *
-    {
+    .areplivir .results .row>* {
         width: calc(33.333% - 24px);
         margin-bottom: 24px;
         margin-left: 24px;
     }
 
 
-    .areplivir .results .item
-    {
+    .areplivir .results .item {
         height: 300px;
         padding: 24px;
 
@@ -2662,14 +2328,12 @@
     /*-------------
         Skyvira
     -------------*/
-    .skyvira .head .data
-    {
+    .skyvira .head .data {
         margin-bottom: 80px;
     }
 
 
-    .skyvira .head .data
-    {
+    .skyvira .head .data {
         padding: 60px;
 
         text-align: center;
@@ -2678,39 +2342,33 @@
     }
 
 
-    .skyvira .head .info
-    {
+    .skyvira .head .info {
         width: 100%;
     }
 
 
-    .skyvira .head .title
-    {
+    .skyvira .head .title {
         font-size: 26px;
     }
 
 
-    .skyvira .head .link
-    {
+    .skyvira .head .link {
         margin-top: 32px;
     }
 
-    .skyvira .head .link a
-    {
+    .skyvira .head .link a {
         width: 232px;
         padding: 18px;
     }
 
 
-    .skyvira .head img
-    {
+    .skyvira .head img {
         margin: 60px auto 0;
     }
 
 
 
-    .skyvira .risk_groups .block_title
-    {
+    .skyvira .risk_groups .block_title {
         font-size: 40px;
 
         margin-bottom: 30px;
@@ -2718,8 +2376,7 @@
 
 
 
-    .skyvira .risk_groups .items
-    {
+    .skyvira .risk_groups .items {
         display: flex;
 
         justify-content: space-between;
@@ -2728,14 +2385,12 @@
         flex-wrap: wrap;
     }
 
-    .skyvira .risk_groups .items img
-    {
+    .skyvira .risk_groups .items img {
         display: none;
     }
 
 
-    .skyvira .risk_groups .col
-    {
+    .skyvira .risk_groups .col {
         position: relative;
         bottom: 0;
 
@@ -2751,8 +2406,7 @@
         flex-wrap: wrap;
     }
 
-    .skyvira .risk_groups .col > *
-    {
+    .skyvira .risk_groups .col>* {
         font-size: 15px;
         line-height: 50px;
 
@@ -2760,19 +2414,16 @@
         margin-left: 32px;
     }
 
-    .skyvira .risk_groups .col > * + *
-    {
+    .skyvira .risk_groups .col>*+* {
         margin-top: 0;
     }
 
-    .skyvira .risk_groups .col span
-    {
+    .skyvira .risk_groups .col span {
         padding: 0 30px;
     }
 
     .skyvira .risk_groups .col span:before,
-    .skyvira .risk_groups .col + .col span:before
-    {
+    .skyvira .risk_groups .col+.col span:before {
         right: auto;
         left: -8px;
 
@@ -2780,24 +2431,21 @@
         height: 18px;
     }
 
-    .skyvira .risk_groups .col + .col
-    {
+    .skyvira .risk_groups .col+.col {
         width: 100%;
         margin-top: 20px;
     }
 
 
 
-    .skyvira .covid19 .data
-    {
+    .skyvira .covid19 .data {
         padding: 60px;
 
         border-radius: 48px;
     }
 
 
-    .skyvira .covid19 .item
-    {
+    .skyvira .covid19 .item {
         font-size: 18px;
 
         display: flex;
@@ -2810,28 +2458,24 @@
         flex-wrap: wrap;
     }
 
-    .skyvira .covid19 .item .icon
-    {
+    .skyvira .covid19 .item .icon {
         width: 60px;
         height: 60px;
         margin: 0;
     }
 
-    .skyvira .covid19 .item .icon + *
-    {
+    .skyvira .covid19 .item .icon+* {
         width: calc(100% - 84px);
 
         align-self: center;
     }
 
-    .skyvira .covid19 .item br
-    {
+    .skyvira .covid19 .item br {
         display: none;
     }
 
 
-    .skyvira .covid19 .title
-    {
+    .skyvira .covid19 .title {
         font-size: 22px;
 
         margin-top: 60px;
@@ -2839,33 +2483,28 @@
 
 
 
-    .skyvira .research_results
-    {
+    .skyvira .research_results {
         margin-bottom: 80px;
     }
 
 
-    .skyvira .research_results .thumb
-    {
+    .skyvira .research_results .thumb {
         width: 240px;
         height: 240px;
     }
 
-    .skyvira .research_results .thumb + *
-    {
+    .skyvira .research_results .thumb+* {
         width: calc(100% - 280px);
     }
 
 
-    .skyvira .research_results .title
-    {
+    .skyvira .research_results .title {
         font-size: 24px;
         line-height: 140%;
     }
 
 
-    .skyvira .research_results .exp
-    {
+    .skyvira .research_results .exp {
         font-size: 12px;
         line-height: 140%;
 
@@ -2873,16 +2512,14 @@
     }
 
 
-    .skyvira .research_results .items
-    {
+    .skyvira .research_results .items {
         margin-top: 60px;
         margin-left: 0;
         padding: 0;
     }
 
 
-    .skyvira .research_results .item
-    {
+    .skyvira .research_results .item {
         font-size: 18px;
 
         display: flex;
@@ -2895,36 +2532,31 @@
         flex-wrap: wrap;
     }
 
-    .skyvira .research_results .item .icon
-    {
+    .skyvira .research_results .item .icon {
         width: 60px;
         height: 60px;
         margin: 0;
     }
 
-    .skyvira .research_results .item .icon + *
-    {
+    .skyvira .research_results .item .icon+* {
         width: calc(100% - 84px);
 
         align-self: center;
     }
 
-    .skyvira .research_results .item br
-    {
+    .skyvira .research_results .item br {
         display: none;
     }
 
 
 
-    .skyvira .dynamics
-    {
+    .skyvira .dynamics {
         margin-bottom: 80px;
         padding: 80px 0;
     }
 
 
-    .skyvira .dynamics .block_title
-    {
+    .skyvira .dynamics .block_title {
         font-size: 33px;
         line-height: 130%;
 
@@ -2932,22 +2564,19 @@
     }
 
 
-    .skyvira .dynamics .img
-    {
+    .skyvira .dynamics .img {
         margin-bottom: 0;
     }
 
 
-    .skyvira .dynamics .item
-    {
+    .skyvira .dynamics .item {
         font-size: 18px;
 
         width: calc(50% - 24px);
         margin-top: 40px;
     }
 
-    .skyvira .dynamics .item .val
-    {
+    .skyvira .dynamics .item .val {
         font-size: 36px;
 
         margin-bottom: 10px;
@@ -2955,14 +2584,12 @@
 
 
 
-    .skyvira .mode_app .block_head
-    {
+    .skyvira .mode_app .block_head {
         margin-bottom: 30px;
     }
 
 
-    .skyvira .mode_app .items
-    {
+    .skyvira .mode_app .items {
         font-size: 18px;
         line-height: 130%;
 
@@ -2970,64 +2597,54 @@
     }
 
 
-    .skyvira .mode_app .item + .item
-    {
+    .skyvira .mode_app .item+.item {
         margin-top: 20px;
     }
 
 
-    .skyvira .mode_app .items .icon
-    {
+    .skyvira .mode_app .items .icon {
         width: 60px;
         height: 60px;
     }
 
-    .skyvira .mode_app .items .icon + *
-    {
+    .skyvira .mode_app .items .icon+* {
         width: calc(100% - 88px);
     }
 
-    .skyvira .mode_app .items ul li:before
-    {
+    .skyvira .mode_app .items ul li:before {
         top: 8px;
     }
 
 
-    .skyvira .mode_app .link
-    {
+    .skyvira .mode_app .link {
         margin-top: 40px;
         margin-left: 88px;
     }
 
-    .skyvira .mode_app .link a
-    {
+    .skyvira .mode_app .link a {
         padding: 10px 30px;
     }
 
 
-    .skyvira .mode_app .image
-    {
+    .skyvira .mode_app .image {
         width: 100%;
         margin-top: 40px;
         margin-left: 0;
     }
 
 
-    .skyvira .mode_app .notice
-    {
+    .skyvira .mode_app .notice {
         font-size: 20px;
         line-height: 26px;
     }
 
-    .skyvira .mode_app .notice img
-    {
+    .skyvira .mode_app .notice img {
         width: 60px;
         height: 60px;
     }
 
 
-    .skyvira .mode_app .exp
-    {
+    .skyvira .mode_app .exp {
         font-size: 24px;
 
         margin-top: 48px;
@@ -3038,36 +2655,31 @@
     /*-----------
         Notes
     -----------*/
-    .notes .spoler_btn
-    {
+    .notes .spoler_btn {
         font-size: 24px;
 
         padding: 40px 0;
     }
 
 
-    .notes .spoler_btn .icon
-    {
+    .notes .spoler_btn .icon {
         width: 28px;
         height: 14px;
     }
 
 
-    .notes .data
-    {
+    .notes .data {
         font-size: 17px;
 
         padding: 48px 0;
     }
 
 
-    .notes .text
-    {
+    .notes .text {
         padding: 0;
     }
 
-    .notes .text > * + *
-    {
+    .notes .text>*+* {
         margin-top: 24px;
     }
 
@@ -3076,8 +2688,7 @@
     /*-------------
         Socials
     -------------*/
-    .socials
-    {
+    .socials {
         right: 32px;
 
         width: 360px;
@@ -3085,27 +2696,23 @@
     }
 
 
-    .socials .close_btn
-    {
+    .socials .close_btn {
         width: 50px;
         height: 50px;
     }
 
-    .socials .close_btn .icon
-    {
+    .socials .close_btn .icon {
         width: 20px;
         height: 20px;
     }
 
-    .socials .title
-    {
+    .socials .title {
         font-size: 26px;
 
         margin-bottom: 30px;
     }
 
-    .socials .items .icon
-    {
+    .socials .items .icon {
         width: 50px;
         height: 50px;
     }
@@ -3115,19 +2722,16 @@
     /*------------
         Footer
     ------------*/
-    footer
-    {
+    footer {
         padding: 72px 0;
     }
 
 
-    footer .logo .name
-    {
+    footer .logo .name {
         font-size: 36px;
     }
 
-    footer .logo .name:after
-    {
+    footer .logo .name:after {
         top: -5px;
         right: -10px;
 
@@ -3140,33 +2744,28 @@
     /*-----------
         PopUp
     -----------*/
-    .video_modal
-    {
+    .video_modal {
         width: 100%;
         padding: 40px;
     }
 
 
-    .video_modal .thumb
-    {
+    .video_modal .thumb {
         margin-bottom: 24px;
     }
 
-    .video_modal .thumb .icon
-    {
+    .video_modal .thumb .icon {
         width: 120px;
         height: 120px;
     }
 
-    .video_modal .thumb .icon svg
-    {
+    .video_modal .thumb .icon svg {
         width: 36px;
         height: 40px;
     }
 
 
-    .video_modal .title
-    {
+    .video_modal .title {
         font-size: 24px;
     }
 
@@ -3175,32 +2774,27 @@
     /*-----------
         PopUp
     -----------*/
-    #warning_modal
-    {
+    #warning_modal {
         padding: 60px;
     }
 
 
-    #warning_modal .title
-    {
+    #warning_modal .title {
         font-size: 38px;
     }
 
-    #warning_modal .desc
-    {
+    #warning_modal .desc {
         font-size: 18px;
 
         margin-top: 24px;
     }
 
 
-    #warning_modal .btns
-    {
+    #warning_modal .btns {
         margin-top: 40px;
     }
 
-    #warning_modal .btn
-    {
+    #warning_modal .btn {
         font-size: 16px;
         line-height: 20px;
 

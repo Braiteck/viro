@@ -245,6 +245,14 @@ $(() => {
 			type: 'inline'
 		}])
 	}
+
+
+	// Голосование
+	$('.articles .poll form').submit(function (e) {
+		e.preventDefault()
+
+		$(this).closest('.poll').find('.success').addClass('show')
+	})
 })
 
 

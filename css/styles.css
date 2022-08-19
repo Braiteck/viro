@@ -755,6 +755,11 @@ header .sep
     background: #c4c4c4;
 }
 
+header .sep.hide
+{
+    display: none;
+}
+
 
 
 header .search
@@ -3598,6 +3603,10 @@ header.fixed .menu_item > a
 
 .articles .poll
 {
+    position: relative;
+
+    overflow: hidden;
+
     padding: 65px 70px 47px 65px;
 
     border-radius: 110px;
@@ -3753,6 +3762,73 @@ header.fixed .menu_item > a
     border: 2px solid #235091;
     border-radius: 110px;
     background: #235091;
+}
+
+
+.articles .poll .success
+{
+    color: #363e43;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+
+    text-align: center;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+
+    background: #f7f8fa;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.articles .poll .success.show
+{
+    display: flex;
+}
+
+
+.articles .poll .success .icon
+{
+    display: flex;
+
+    width: 169px;
+    height: 169px;
+    margin: 0 auto 57px;
+
+    border-radius: 50%;
+    background: #235091;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.articles .poll .success .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    height: 50px;
+    max-height: 100%;
+}
+
+.articles .poll .success .icon + *
+{
+    width: 100%;
 }
 
 
